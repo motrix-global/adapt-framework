@@ -1,74 +1,2212 @@
 [
-    {
-        "_id": "co-05",
-        "_parentId": "course",
-        "_type": "page",
-        "_classes": "",
-        "_htmlClasses": "",
-        "title": "Presentation Components",
-        "displayTitle": "Presentation Components",
-        "body": "Find out what presentation components are available within the core bundle and how you might consider using them within your courses.",
-        "pageBody": "",
-        "instruction": "Scroll down to see what presentation components are available as part of the v5 core bundle.",
-        "_graphic": {
-            "src": "course/en/images/menu-item.png",
-            "alt": ""
-        },
-        "linkText": "View",
-        "duration": "2 mins",
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_showPageCompletion": false,
-            "_excludeAssessments": false,
-            "_isCompletionIndicatorEnabled": false
-        }
+  {
+    "title": "Teste nivelamento",
+    "displayTitle": "Teste nivelamento",
+    "body": "",
+    "_classes": "hide-title",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "615368803f71e3dffca2c6f3",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
     },
-    {
-        "_id": "co-10",
-        "_parentId": "course",
-        "_type": "page",
-        "_classes": "",
-        "_htmlClasses": "",
-        "title": "Question Components",
-        "displayTitle": "Question Components",
-        "body": "Discover what question components are available within the framework, along with some tips on how to use them.",
-        "pageBody": "Without a range of question components, we can’t easily measure if learners are meeting the intended course objectives, provide guidance and feedback if they’re not, or give them opportunities to practise in a ‘safe environment’.<br><br>Discover what question components are available within the framework, along with some tips on how to use them.",
-        "instruction": "Scroll down to see what question components are available as part of the v5 core bundle.",
-        "_graphic": {
-            "src": "course/en/images/menu-item.png",
-            "alt": ""
-        },
-        "linkText": "View",
-        "duration": "2 mins",
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_showPageCompletion": false,
-            "_excludeAssessments": false,
-            "_isCompletionIndicatorEnabled": false
-        }
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     },
-    {
-        "_id": "co-15",
-        "_parentId": "course",
-        "_type": "page",
-        "_classes": "assessment",
-        "_htmlClasses": "",
-        "title": "Adapt Assessment",
-        "displayTitle": "Adapt Assessment",
-        "body": "Find out more about the assessment functionality introduced in Adapt v2, including randomised banks and an improved results feature.",
-        "pageBody": "We’ve put together a very short quiz to demonstrate the new assessment functionality. In this simple example there are two banks that each contain three questions with two being taken from each bank at random. The order in which the questions are presented is then also randomised, as is the order of each question’s options.",
-        "instruction": "Think you can get a perfect score? Scroll down to attempt the first question.",
-        "_graphic": {
-            "src": "course/en/images/menu-item.png",
-            "alt": ""
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
         },
-        "linkText": "View",
-        "duration": "2 mins",
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_showPageCompletion": false,
-            "_excludeAssessments": false,
-            "_isCompletionIndicatorEnabled": false
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
         }
+      }
     }
+  },
+  {
+    "title": "R",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "615368803f71e3dffca2c6ec",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "CH",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "615368803f71e3dffca2c6ed",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "L",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "615368803f71e3dffca2c6ee",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "LH",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "615368803f71e3dffca2c6ef",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Silaba terminada em L",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "615368803f71e3dffca2c6f0",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Q",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "615368803f71e3dffca2c6f1",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Encontro vocálico",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "615368803f71e3dffca2c6f2",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó do CI/CE",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "615e01943f71e3dffca2c70c",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó do GI/GE",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61606f3c3f71e3dffca2c710",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": " Nó do J",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "616070a13f71e3dffca2c714",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "N26",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "6179ad703f71e3dffca2c71a",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Vogal Consoante Vogal",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "6194f3273f71e3dffca2c71f",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Vogal com N",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "6194f6b33f71e3dffca2c723",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Segundo fonema L V-C + L",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61a0e98d3f71e3dffca2c728",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "dissílabas + 3 letras term com r",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61a0ea8b3f71e3dffca2c72c",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó 28",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61b657313f71e3dffca2c742",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó 29",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61bb6ef03f71e3dffca2c746",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó 30",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61c084a63f71e3dffca2c74a",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó 31",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61c085513f71e3dffca2c74e",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó 32",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61c086793f71e3dffca2c752",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": " Nó 33",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61c4b6c03d1dca03e67ae213",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": " Nó 34",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61c4b6c33d1dca03e67ae216",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": " Nó 35",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61c4b6c43d1dca03e67ae219",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": " Nó 36",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61c4b6c63d1dca03e67ae21c",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó 37",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "61f7fa163d1dca03e67ae224",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó 38",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "620d0df43d1dca03e67ae22c",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó 39",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "620d32893d1dca03e67ae230",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó 40",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "620d3ff93d1dca03e67ae234",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  },
+  {
+    "title": "Nó 41",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "620d40953d1dca03e67ae238",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    },
+    "_boxMenu": {
+      "_renderAsGroup": false
+    },
+    "_vanilla": {
+      "_backgroundImage": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundRepeat": "repeat",
+        "_backgroundSize": "auto",
+        "_backgroundPosition": "left top"
+      },
+      "_responsiveClasses": {
+        "_large": "",
+        "_medium": "",
+        "_small": ""
+      },
+      "_pageHeader": {
+        "_backgroundImage": {
+          "_large": "",
+          "_medium": "",
+          "_small": ""
+        },
+        "_backgroundStyles": {
+          "_backgroundRepeat": "repeat",
+          "_backgroundSize": "auto",
+          "_backgroundPosition": "left top"
+        },
+        "_minimumHeights": {
+          "_large": null,
+          "_medium": null,
+          "_small": null
+        }
+      }
+    }
+  }
 ]

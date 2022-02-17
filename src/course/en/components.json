@@ -1,1088 +1,2163 @@
 [
-    {
-        "_id": "c-05",
-        "_parentId": "b-05",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Introduction",
-        "displayTitle": "",
-        "body": "Adapt allows you to combine <b>Text</b> and <b>Graphic</b> components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br><b>These presentation components can be structured</b> in any way to help you create learning experiences that meet the needs of your learners.<br><br>In addition, if your course is being launched from an <abbr title='Learning Management System'>LMS</abbr> or <abbr title='Learning Record Store'>LRS</abbr>, you can personalise the course content by having the learner's name dynamically displayed in the body, instruction or feedback text.",
-        "instruction": "{{_globals._learnerInfo.firstname}}, scroll down to see what presentation components are available as part of the core bundle.",
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": false
-        }
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó do R",
+    "displayTitle": "",
+    "body": "",
+    "_id": "615368803f71e3dffca2c704",
+    "_parentId": "615368803f71e3dffca2c6fc",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     },
-    {
-        "_id": "c-10",
-        "_parentId": "b-05",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "_isOptional": true,
-        "title": "c-10",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
-        "_graphic": {
-            "large": "course/en/images/single-width.png",
-            "small": "course/en/images/full-width.png",
-            "alt": "",
-            "attribution": ""
-        }
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
     },
-    {
-        "_id": "c-15",
-        "_parentId": "b-10",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "left",
-        "title": "Text",
-        "displayTitle": "Text",
-        "body": "The simple <b>Text</b> component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics. In this example we’ve used the <b>Blank</b> component to the right to create a window through to the block background.<br><br>Remember, content doesn’t always warrant an interaction so less can often be really be more. Instead, look to intersperse more interactive components with text and graphics where they add the maximum value.<br><br>Component can either be single or spanned.",
-        "instruction": "",
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": false
-        }
+    "_concepts": {
+      "omission": "0"
     },
-    {
-        "_id": "c-20",
-        "_parentId": "b-10",
-        "_type": "component",
-        "_component": "blank",
-        "_classes": "",
-        "_layout": "right",
-        "title": "c-20",
-        "_isOptional": true
+    "_wordLimit": "5",
+    "_words": [
+      {
+        "word": "FRIO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "VIDRO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "PRATO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "FRUTA",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "BRUXA",
+        "conceptRange": "0,1"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "hard",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó do CH",
+    "displayTitle": "",
+    "body": "",
+    "_id": "615368803f71e3dffca2c705",
+    "_parentId": "615368803f71e3dffca2c6fd",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     },
-    {
-        "_id": "c-25",
-        "_parentId": "b-15",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Graphic",
-        "displayTitle": "Graphic",
-        "body": "This is the <b>Graphic</b> component body. You can introduce your graphic or you may just want to let the graphics do the talking.<br><br>Component can either be single or spanned.",
-        "instruction": "",
-        "_graphic": {
-            "src": "course/en/images/full-width.png",
-            "alt": "",
-            "attribution": ""
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": false
-        }
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
     },
-    {
-        "_id": "c-30",
-        "_parentId": "b-20",
-        "_type": "component",
-        "_component": "narrative",
-        "_classes": "",
-        "_layout": "full",
-        "_comment": "setCompletionOn = inview | allItems",
-        "_setCompletionOn": "allItems",
-        "_hasNavigationInTextArea": false,
-        "title": "Narrative",
-        "displayTitle": "Narrative",
-        "body": "The <b>Narrative</b> component lets you scroll through a series of images each with some accompanying text.<br><br>This component is always spanned.",
-        "instruction": "Select the next and back arrows to find out more.",
-        "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
-        "_items": [
-            {
-                "title": "Narrative item 1",
-                "body": "Narratives are particularly good for showing dialogue between two or more characters, with each step of the conversation being accompanied by an image. This photo story approach can be used to provide context for the learning to follow, to illustrate real-world application of the learning or to show the impact on people when the learning hasn’t been applied correctly.",
-                "_graphic": {
-                    "src": "course/en/images/narrative.png",
-                    "alt": ""
-                },
-                "strapline": "Narrative item 1"
-            },
-            {
-                "title": "Narrative item 2",
-                "body": "It can also be used to present case studies, where the different displays are used to set the scene, show the key events and then the outcome.",
-                "_graphic": {
-                    "src": "course/en/images/narrative.png",
-                    "alt": ""
-                },
-                "strapline": "Narrative item 2"
-            },
-            {
-                "title": "Narrative item 3",
-                "body": "This component can also be useful when you want to illustrate the constituent steps that make up a larger process.",
-                "_graphic": {
-                    "src": "course/en/images/narrative.png",
-                    "alt": ""
-                },
-                "strapline": "Narrative item 3"
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": true
-        }
+    "_concepts": {
+      "omission": "0"
     },
-    {
-        "_id": "c-35",
-        "_parentId": "b-25",
-        "_type": "component",
-        "_component": "hotgraphic",
-        "_classes": "",
-        "_layout": "full",
-        "_comment": "setCompletionOn = inview | allItems",
-        "_setCompletionOn": "allItems",
-        "_canCycleThroughPagination": false,
-        "_hidePagination": false,
-        "_isNarrativeOnMobile": true,
-        "_useNumberedPins": false,
-        "_useGraphicsAsPins": false,
-        "title": "Hot Graphic",
-        "displayTitle": "Hot Graphic",
-        "body": "You can add interactivity to an image by using the <b>Hot Graphic</b>. This component allows you to position icons over an image. When an icon is selected, content associated with its corresponding location is displayed in a window over the image. This component will fall back to a <b>Narrative</b> when viewed on mobile.<br><br>This component is always spanned.",
-        "instruction": "Select the icons to find out more.",
-        "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
-        "_graphic": {
-            "src": "course/en/images/hotgraphic.png",
-            "alt": ""
-        },
-        "_items": [
-            {
-                "title": "Hot Graphic item 1",
-                "body": "This is display text associated with item 1.",
-                "_graphic": {
-                    "src": "course/en/images/single-width.png",
-                    "alt": "",
-                    "_classes": ""
-                },
-                "strapline": "Hot Graphic strapline 1",
-                "_classes": "",
-                "_top": 42,
-                "_left": 8.5
-            },
-            {
-                "title": "Hot Graphic item 2",
-                "body": "This is display text associated with item 2.",
-                "_graphic": {
-                    "src": "course/en/images/single-width.png",
-                    "alt": "",
-                    "_classes": ""
-                },
-                "strapline": "Hot Graphic strapline 2",
-                "_classes": "",
-                "_top": 62,
-                "_left": 26.5
-            },
-            {
-                "title": "Hot Graphic item 3",
-                "body": "This is display text associated with item 3.",
-                "_graphic": {
-                    "src": "course/en/images/single-width.png",
-                    "alt": "",
-                    "_classes": ""
-                },
-                "strapline": "Hot Graphic strapline 3",
-                "_classes": "",
-                "_top": 62,
-                "_left": 49
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": true
-        }
+    "_wordLimit": "5",
+    "_words": [
+      {
+        "word": "BICHO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "CHÁ",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "LANCHE",
+        "conceptRange": "3,5"
+      },
+      {
+        "word": "MACHUCADO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "MOCHILA",
+        "conceptRange": "2,4"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "hard",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó do L",
+    "displayTitle": "",
+    "body": "",
+    "_id": "615368813f71e3dffca2c706",
+    "_parentId": "615368803f71e3dffca2c6fe",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     },
-    {
-        "_id": "c-40",
-        "_parentId": "b-30",
-        "_type": "component",
-        "_component": "media",
-        "_classes": "",
-        "_layout": "full",
-        "_comment": "_setCompletionOn = inview | play | ended",
-        "_setCompletionOn": "play",
-        "_useClosedCaptions": true,
-        "_allowFullScreen": true,
-        "title": "Media",
-        "displayTitle": "Media",
-        "body": "Sometimes we need to make use of rich media to really drive home a point, bring a complex subject to life or simply use audio to literally do the talking. This is when the <b>Media</b> component comes to the fore.<br><br>Component can be either single or spanned.",
-        "instruction": "Select the play button to start the video.",
-        "_media": {
-            "mp4": "course/en/video/c-40.mp4",
-            "poster": "course/en/video/c-40.jpg",
-            "cc": [
-                {
-                    "srclang": "en",
-                    "src": "course/en/video/c-40.vtt"
-                }
-            ]
-        },
-        "_playerOptions": {
-            "alwaysShowControls": true,
-            "toggleCaptionsButtonWhenOnlyOne": true,
-            "iPadUseNativeControls": true,
-            "iPhoneUseNativeControls": true,
-            "AndroidUseNativeControls": true
-        },
-        "_transcript": {
-            "_inlineTranscript": true,
-            "_externalTranscript": false,
-            "inlineTranscriptButton": "Transcript",
-            "inlineTranscriptCloseButton": "Close Transcript",
-            "inlineTranscriptBody": "Responsive design means you can create a course once but view it on a wide range of browsers, devices or operating systems. This is achieved by using fluid layouts to ensure the presentation of content is tailored to suit the size of the screen. This means you can start a course on your laptop and finish it later on your mobile or tablet. We call it Adapt",
-            "transcriptLinkButton": "Transcript",
-            "transcriptLink": ""
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": true
-        }
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
     },
-    {
-        "_id": "c-45",
-        "_parentId": "b-35",
-        "_type": "component",
-        "_component": "accordion",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Accordion",
-        "displayTitle": "Accordion",
-        "body": "You can use the <b>Accordion</b> component to present learners with a series of headings which, once selected, expand to reveal associated text. Select each of the headings below to find out more about how accordions can be used.<br><br>These components can be either single or spanned. If spanned they can also contain a graphic.",
-        "instruction": "Select the headings to find out more.",
-        "_items": [
-            {
-                "title": "Lists",
-                "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list that can stand alone as a piece of content, but which can also be explored in more detail, accordions are a great choice.",
-                "_classes": "align-image-left",
-                "_graphic": {
-                    "src": "course/en/images/single-width.png",
-                    "alt": ""
-                }
-            },
-            {
-                "title": "Steps in a process",
-                "body": "This is display text 2 and now we’re discussing how accordions can be great at presenting a process.<br><br>The headings can be used to present the high-level stages in the process, which once selected, provide a more extensive explanation of what happens at that specific point.",
-                "_classes": "align-image-right",
-                "_graphic": {
-                    "src": "course/en/images/single-width.png",
-                    "alt": ""
-                }
-            },
-            {
-                "title": "Recaps",
-                "body": "This is display text 3 and we’re now talking about using accordions to provide the learner with a summary.<br><br>Each accordion item corresponds to a key piece of learning presented on the page. When this item is selected a short summary of the learning point is provided.",
-                "_graphic": {
-                    "src": "course/en/images/accordion-full.png",
-                    "alt": ""
-                }
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": true
-        }
+    "_concepts": {
+      "omission": "0"
     },
-    {
-        "_id": "c-60",
-        "_parentId": "b-40",
-        "_type": "component",
-        "_component": "mcq",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_canShowModelAnswer": true,
-        "_shouldDisplayAttempts": false,
-        "_isRandom": true,
-        "_selectable": 1,
-        "title": "Multiple Choice Question",
-        "displayTitle": "Multiple Choice Question",
-        "body": "In what year was the first recorded instance of a large scale assessment that consists solely of multiple choice questions?",
-        "instruction": "Choose one option and select Submit.",
-        "_items": [
-            {
-                "text": "1917",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "1888",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "1953",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "1977",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback": {
-            "title": "Feedback",
-            "correct": "Correct feedback text.<br><br>That’s correct. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><i>Component facts: <b>Multiple Choice Questions (or MCQs)</b> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</i>",
-            "_incorrect": {
-                "final": "Incorrect feedback text.<br><br>That’s not right. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><i>Component facts: <b>Multiple Choice Questions (or MCQs)</b> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</i>"
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": true
-        }
+    "_wordLimit": "5",
+    "_words": [
+      {
+        "word": "BICICLETA",
+        "conceptRange": "4,6"
+      },
+      {
+        "word": "CLUBE",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "GLOBO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "BLUSA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "PLANTA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "FLOR",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "BLOCO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "FLAUTA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "CLIMA",
+        "conceptRange": "0,2"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó do LH",
+    "displayTitle": "",
+    "body": "",
+    "_id": "615368813f71e3dffca2c707",
+    "_parentId": "615368803f71e3dffca2c6ff",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     },
-    {
-        "_id": "c-62",
-        "_parentId": "b-40",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "_isOptional": true,
-        "title": "c-62",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
-        "_graphic": {
-            "src": "course/en/images/single-width.png",
-            "alt": "",
-            "attribution": ""
-        }
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
     },
-    {
-        "_id": "c-65",
-        "_parentId": "b-45",
-        "_type": "component",
-        "_component": "gmcq",
-        "_classes": "",
-        "_layout": "full",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_canShowModelAnswer": true,
-        "_shouldDisplayAttempts": false,
-        "_isRandom": true,
-        "_selectable": 1,
-        "title": "Graphical Multiple Choice Question",
-        "displayTitle": "Graphical Multiple Choice Question",
-        "body": "The <b>Graphical Multiple Choice Question</b> is an alternative to the standard <abbr title='Multiple Choice Question'>MCQ</abbr>, and allows you to ask a question and present the options as graphics (with accompanying captions). This component is always spanned.",
-        "instruction": "Choose option 2 and select Submit.",
-        "_columns": 3,
-        "_items": [
-            {
-                "text": "Option 1",
-                "_shouldBeSelected": false,
-                "_graphic": {
-                    "large": "course/en/images/gmcq.png",
-                    "small": "course/en/images/gmcq.png",
-                    "alt": ""
-                }
-            },
-            {
-                "text": "Option 2",
-                "_shouldBeSelected": true,
-                "_graphic": {
-                    "large": "course/en/images/gmcq.png",
-                    "small": "course/en/images/gmcq.png",
-                    "alt": ""
-                }
-            },
-            {
-                "text": "Option 3",
-                "_shouldBeSelected": false,
-                "_graphic": {
-                    "large": "course/en/images/gmcq.png",
-                    "small": "course/en/images/gmcq.png",
-                    "alt": ""
-                }
-            }
-        ],
-        "_feedback": {
-            "title": "Feedback",
-            "correct": "Correct feedback text.<br><br>That’s correct. <strong>Option 2</strong> is what we were looking for!",
-            "_incorrect": {
-                "final": "Incorrect feedback text.<br><br>Sorry, that’s not right. In fact <strong>Option 2</strong> is what we were looking for (the clue was in the instruction text!)."
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": true
-        }
+    "_concepts": {
+      "omission": "0"
     },
-    {
-        "_id": "c-70",
-        "_parentId": "b-50",
-        "_type": "component",
-        "_component": "textinput",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_canShowModelAnswer": true,
-        "_shouldDisplayAttempts": false,
-        "_isRandom": true,
-        "_allowsAnyCase": true,
-        "_allowsPunctuation": true,
-        "title": "Text Input",
-        "displayTitle": "Text Input",
-        "body": "Can you name one of the three companies that established Adapt as a community-led open source project?",
-        "instruction": "Input your answer and select Submit.",
-        "_answers": [
-            ["City & Guilds Kineo", "Kineo"],
-            ["Learning Pool"],
-            ["Sponge"]
-        ],
-        "_items": [
-            {
-                "prefix": "",
-                "placeholder": "Enter answer here",
-                "suffix": ""
-            }
-        ],
-        "_feedback": {
-            "title": "Feedback",
-            "correct": "Correct answer feedback.<br><br>That’s correct. The Adapt open source project was established by Kineo, Learning Pool and Sponge. At the time of writing, there are a total of nine <a href='https://www.adaptlearning.org/index.php/collaborators/' target='_blank'>official collaborators</a>.<br><br><i>Component facts: <b>Text input</b> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers.</i>",
-            "_partlyCorrect": {
-                "final": "Partially correct answer feedback.<br><br>That’s partially correct. The Adapt open source project was established by Kineo, Learning Pool and Sponge. At the time of writing, there are a total of nine <a href='https://www.adaptlearning.org/index.php/collaborators/' target='_blank'>official collaborators</a>.<br><br><i>Component facts: <b>Text input</b> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers.</i>"
-            },
-            "_incorrect": {
-                "final": "Incorrect answer feedback.<br><br>Sorry, that’s not right. The Adapt open source project was established by Kineo, Learning Pool and Sponge. At the time of writing, there are a total of nine <a href='https://www.adaptlearning.org/index.php/collaborators/' target='_blank'>official collaborators</a>.<br><br><i>Component facts: <b>Text input</b> components let learners enter their own answers, which is great for questions that require a bit more flexibility, like those with answers that could be written as both full words and numbers.</i>"
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": true
-        }
+    "_wordLimit": "5",
+    "_words": [
+      {
+        "word": "BOLHA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "MILHO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "VELHOS",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "PALHA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "MULHER",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "ESPELHO",
+        "conceptRange": "4,6"
+      },
+      {
+        "word": "TOALHAS",
+        "conceptRange": "3,5"
+      },
+      {
+        "word": "OLHO",
+        "conceptRange": "1,3"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó da silaba terminada em L",
+    "displayTitle": "",
+    "body": "",
+    "_id": "615368813f71e3dffca2c708",
+    "_parentId": "615368803f71e3dffca2c700",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     },
-    {
-        "_id": "c-72",
-        "_parentId": "b-50",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "_isOptional": true,
-        "title": "c-72",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
-        "_graphic": {
-            "src": "course/en/images/single-width.png",
-            "alt": "",
-            "attribution": ""
-        }
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
     },
-    {
-        "_id": "c-75",
-        "_parentId": "b-55",
-        "_type": "component",
-        "_component": "matching",
-        "_classes": "",
-        "_layout": "full",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_canShowModelAnswer": true,
-        "_shouldDisplayAttempts": false,
-        "_isRandom": true,
-        "title": "Matching",
-        "displayTitle": "Matching",
-        "body": "Can you identify some of the key facts and figures associated with the Adapt Open Source project?",
-        "instruction": "Choose an option from each dropdown list and select Submit.",
-        "placeholder": "Select an option",
-        "_items": [
-            {
-                "text": "The Adapt Open Source project was formed in:",
-                "_options": [
-                    {
-                        "text": "2008",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "2010",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "2013",
-                        "_isCorrect": true
-                    },
-                    {
-                        "text": "2015",
-                        "_isCorrect": false
-                    }
-                ]
-            },
-            {
-                "text": "Adapt adheres to level 'AA' of the <abbr title='Web Content Accessibility Guidelines'>WCAG</abbr> version 2, but when were these published?",
-                "_options": [
-                    {
-                        "text": "2008",
-                        "_isCorrect": true
-                    },
-                    {
-                        "text": "2010",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "2013",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "2015",
-                        "_isCorrect": false
-                    }
-                ]
-            },
-            {
-                "text": "Which of these languages would benefit from using the recent addition of Right To Left (RTL) language support within Adapt?",
-                "_options": [
-                    {
-                        "text": "Portuguese",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Hebrew",
-                        "_isCorrect": true
-                    },
-                    {
-                        "text": "Finnish",
-                        "_isCorrect": false
-                    },
-                    {
-                        "text": "Esperanto",
-                        "_isCorrect": false
-                    }
-                ]
-            }
-        ],
-        "_feedback": {
-            "title": "Feedback",
-            "correct": "Correct answer feedback.<br><br>Yes, that’s right. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><i>Component facts: The <b>Matching</b> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</i>",
-            "_partlyCorrect": {
-                "final": "Partially correct answer feedback.<br><br>That’s partially correct. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><i>Component facts: The <b>Matching</b> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</i>"
-            },
-            "_incorrect": {
-                "final": "Incorrect answer feedback.<br><br>Sorry, that’s not right. Adapt was established as an Open Source project in 2013. The Web Accessibility Initiative (WAI) published the WCAG 2.0 guidelines in 2008 and Hebrew is the only language of the four shown which reads right to left.<br><br><i>Component facts: The <b>Matching</b> component lets you match a series of questions or statements with the corresponding options from the dropdown box. Component is either single or spanned.</i>"
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": true
-        }
+    "_concepts": {
+      "omission": "0"
     },
-    {
-        "_id": "c-80",
-        "_parentId": "b-60",
-        "_type": "component",
-        "_component": "slider",
-        "_classes": "",
-        "_layout": "full",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_canShowModelAnswer": true,
-        "_shouldDisplayAttempts": false,
-        "_showNumber": true,
-        "_showScaleIndicator": true,
-        "_scaleStart": 1,
-        "_scaleEnd": 10,
-        "title": "Slider",
-        "displayTitle": "Slider",
-        "body": "Working memory is thought to be responsible for our ability to temporarily hold and manipulate information, but according to a paper by Miller (1956) what ‘magic number’ describes its capacity?",
-        "instruction": "Drag the slider to make your choice and select Submit.",
-        "labelStart": "",
-        "labelEnd": "",
-        "_correctAnswer": "",
-        "_correctRange": {
-            "_bottom": 5,
-            "_top": 9
-        },
-        "_feedback": {
-            "title": "Feedback",
-            "correct": "Correct answer feedback.<br><br>Yes, that’s right. According to Miller’s paper 7 +/- 2 chunks of information was the limited capacity of working memory. Various theories from the field of cognitive psychology such as Miller’s <a href='http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two' target='_blank'>magical number</a>, <a href='http://en.wikipedia.org/wiki/Chunking_%28psychology%29#Chunking_as_the_learning_of_long-term_memory_structures' target='_blank'>chunking</a>, <a href='http://en.wikipedia.org/wiki/Forgetting_curve' target='_blank'>the forgetting curve</a> and <a href='http://en.wikipedia.org/wiki/Spaced_repetition' target='_blank'>spaced repetition</a> have all influenced learning theory over the last 50 years or so.<br><br><i>Component facts: The correct answer for a <b>Slider</b> component can be an exact number or a range. In this instance we have set the correct answer to a range of 5-9 due to the correct answer being seven plus or minus two. Component is either single or spanned.</i>",
-            "_incorrect": {
-                "final": "Incorrect answer feedback.<br><br>Sorry, that’s not right. According to Miller’s paper 7 +/- 2 chunks of information was the limited capacity of working memory. Various theories from the field of cognitive psychology such as Miller’s <a href='http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two' target='_blank'>magical number</a>, <a href='http://en.wikipedia.org/wiki/Chunking_%28psychology%29#Chunking_as_the_learning_of_long-term_memory_structures' target='_blank'>chunking</a>, <a href='http://en.wikipedia.org/wiki/Forgetting_curve' target='_blank'>the forgetting curve</a> and <a href='http://en.wikipedia.org/wiki/Spaced_repetition' target='_blank'>spaced repetition</a> have all influenced learning theory over the last 50 years or so.<br><br><i>Component facts: The correct answer for a <b>Slider</b> component can be an exact number or a range. In this instance we have set the correct answer to a range of 5-9 due to the correct answer being seven plus or minus two. Component is either single or spanned.</i>"
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": true
-        }
+    "_wordLimit": "5",
+    "_words": [
+      {
+        "word": "SAL",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "SINAL",
+        "conceptRange": "3,4"
+      },
+      {
+        "word": "BALDE",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "SALSICHAS",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "POLVO",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "MEL",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "SOL",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "GOL",
+        "conceptRange": "1,2"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Q",
+    "displayTitle": "",
+    "body": "",
+    "_id": "615368813f71e3dffca2c709",
+    "_parentId": "615368803f71e3dffca2c701",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     },
-    {
-        "_id": "c-90",
-        "_parentId": "b-65",
-        "_type": "component",
-        "_component": "mcq",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_canShowModelAnswer": false,
-        "_shouldDisplayAttempts": false,
-        "_isRandom": true,
-        "_selectable": 4,
-        "title": "To scroll or not to scroll?",
-        "displayTitle": "To scroll or not to scroll?",
-        "body": "Can you identify a few of the benefits that a vertical scrolling approach offers over the traditional back and next approach?",
-        "instruction": "Choose one or more options and select Submit.",
-        "_items": [
-            {
-                "text": "Scrolling is common place on the web and therefore familiar to the learner",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Scrolling reduces the need for unnecessary navigation as pages can be as long (or as short) as they need to be",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Scrolling helps ensure designs are more mobile friendly",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Scrolling means you no longer need to first gain learners attention",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback": {
-            "title": "",
-            "correct": "",
-            "_partlyCorrect": {
-                "final": ""
-            },
-            "_incorrect": {
-                "final": ""
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": false
-        }
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
     },
-    {
-        "_id": "c-95",
-        "_parentId": "b-65",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "_isOptional": true,
-        "title": "c-95",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
-        "_graphic": {
-            "src": "course/en/images/single-width.png",
-            "alt": "",
-            "attribution": ""
-        }
+    "_concepts": {
+      "omission": "0"
     },
-    {
-        "_id": "c-100",
-        "_parentId": "b-75",
-        "_type": "component",
-        "_component": "mcq",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_canShowModelAnswer": false,
-        "_shouldDisplayAttempts": false,
-        "_isRandom": true,
-        "_selectable": 5,
-        "title": "Do you know your plugins?",
-        "displayTitle": "Do you know your plugins?",
-        "body": "Which of the following are types of Adapt plugins?",
-        "instruction": "Choose one or more options and select Submit.",
-        "_items": [
-            {
-                "text": "Component",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Extension",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Schema",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Block",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "App Wrapper",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback": {
-            "title": "",
-            "correct": "",
-            "_partlyCorrect": {
-                "final": ""
-            },
-            "_incorrect": {
-                "final": ""
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": false
-        }
+    "_wordLimit": "5",
+    "_words": [
+      {
+        "word": "MOSQUITO",
+        "conceptRange": "4,6"
+      },
+      {
+        "word": "REQUEIJÃO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "QUEIXO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "BASQUETE",
+        "conceptRange": "3,5"
+      },
+      {
+        "word": "BIQUINI",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "LEQUE",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "QUIBE",
+        "conceptRange": "0,2"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Encontro vocálico",
+    "displayTitle": "",
+    "body": "",
+    "_id": "615368813f71e3dffca2c70a",
+    "_parentId": "615368803f71e3dffca2c702",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     },
-    {
-        "_id": "c-105",
-        "_parentId": "b-75",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "_isOptional": true,
-        "title": "c-105",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
-        "_graphic": {
-            "src": "course/en/images/single-width.png",
-            "alt": "",
-            "attribution": ""
-        }
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
     },
-    {
-        "_id": "c-110",
-        "_parentId": "b-80",
-        "_type": "component",
-        "_component": "mcq",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_canShowModelAnswer": false,
-        "_shouldDisplayAttempts": false,
-        "_isRandom": true,
-        "_selectable": 1,
-        "title": "It’s as simple as A, B, C",
-        "displayTitle": "It’s as simple as A, B, C",
-        "body": "Can you identify the missing word in the following sequence?<br>Article / ..... / Component.",
-        "instruction": "Choose an option and select Submit.",
-        "_items": [
-            {
-                "text": "Block",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Bridge",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Brace",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Base",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Bearing",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback": {
-            "title": "",
-            "correct": "",
-            "_incorrect": {
-                "final": ""
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": false
-        }
+    "_concepts": {
+      "omission": "0"
     },
-    {
-        "_id": "c-115",
-        "_parentId": "b-80",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "_isOptional": true,
-        "title": "c-115",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
-        "_graphic": {
-            "src": "course/en/images/single-width.png",
-            "alt": "",
-            "attribution": ""
-        }
+    "_wordLimit": "5",
+    "_words": [
+      {
+        "word": "LEITE",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "ÁGUA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "CAIXA",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "DEGRAU",
+        "conceptRange": "4,5"
+      },
+      {
+        "word": "EU",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "HERÓI",
+        "conceptRange": "3,4"
+      },
+      {
+        "word": "JAULA",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "LEÃO",
+        "conceptRange": "1,3"
+      },
+      {
+        "word": "LOIRA",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "MÃE",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "NOIVOS",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "PEIXE",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "PRAIA",
+        "conceptRange": "2,4"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Teste de nivelamento",
+    "displayTitle": "",
+    "body": "",
+    "_id": "615368813f71e3dffca2c70b",
+    "_parentId": "615368803f71e3dffca2c703",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     },
-    {
-        "_id": "c-120",
-        "_parentId": "b-85",
-        "_type": "component",
-        "_component": "mcq",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_canShowModelAnswer": false,
-        "_shouldDisplayAttempts": false,
-        "_isRandom": true,
-        "_selectable": 4,
-        "title": "Content Objects",
-        "displayTitle": "Content Objects",
-        "body": "What would you be referring to when describing a Content Object within Adapt?",
-        "instruction": "Choose one or more options and select Submit.",
-        "_items": [
-            {
-                "text": "Page",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Menu",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Component",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Course configuration options",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback": {
-            "title": "",
-            "correct": "",
-            "_partlyCorrect": {
-                "final": ""
-            },
-            "_incorrect": {
-                "final": ""
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": false
-        }
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
     },
-    {
-        "_id": "c-125",
-        "_parentId": "b-85",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "_isOptional": true,
-        "title": "c-95",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
-        "_graphic": {
-            "src": "course/en/images/single-width.png",
-            "alt": "",
-            "attribution": ""
-        }
+    "_concepts": {
+      "omission": "0"
     },
-    {
-        "_id": "c-130",
-        "_parentId": "b-90",
-        "_type": "component",
-        "_component": "mcq",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_canShowModelAnswer": false,
-        "_shouldDisplayAttempts": false,
-        "_isRandom": true,
-        "_selectable": 1,
-        "title": "Adding titles to icons",
-        "displayTitle": "Adding titles to icons",
-        "body": "What JSON file would you need to edit in order to add a title to an icon in the navigation bar?",
-        "instruction": "Choose an option and select Submit.",
-        "_items": [
-            {
-                "text": "course.json",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "config.json",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "contentObjects.json",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "components.json",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback": {
-            "title": "",
-            "correct": "",
-            "_incorrect": {
-                "final": ""
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": false
-        }
+    "_wordLimit": "0",
+    "_resumable": true,
+    "_words": [
+      {
+        "word": "MAR",
+        "conceptRange": ""
+      },
+      {
+        "word": "MIM",
+        "conceptRange": ""
+      },
+      {
+        "word": "VACINA",
+        "conceptRange": ""
+      },
+      {
+        "word": "MAÇÃ",
+        "conceptRange": ""
+      },
+      {
+        "word": "HOMEM",
+        "conceptRange": ""
+      },
+      {
+        "word": "NASCER",
+        "conceptRange": ""
+      },
+      {
+        "word": "CALÇADA",
+        "conceptRange": ""
+      },
+      {
+        "word": "NARIZ",
+        "conceptRange": ""
+      },
+      {
+        "word": "CHURRASCO",
+        "conceptRange": ""
+      },
+      {
+        "word": "BARALHO",
+        "conceptRange": ""
+      },
+      {
+        "word": "SANGUE",
+        "conceptRange": ""
+      },
+      {
+        "word": "BRUXA",
+        "conceptRange": ""
+      },
+      {
+        "word": "ZOOLÓGICO",
+        "conceptRange": ""
+      },
+      {
+        "word": "CARTAS",
+        "conceptRange": ""
+      },
+      {
+        "word": "ARROZ",
+        "conceptRange": ""
+      },
+      {
+        "word": "VASINHO",
+        "conceptRange": ""
+      },
+      {
+        "word": "GROSSO",
+        "conceptRange": ""
+      },
+      {
+        "word": "BLUSA",
+        "conceptRange": ""
+      },
+      {
+        "word": "FRUTAS",
+        "conceptRange": ""
+      },
+      {
+        "word": "PLANTA",
+        "conceptRange": ""
+      },
+      {
+        "word": "PASSAGEM",
+        "conceptRange": ""
+      },
+      {
+        "word": "REQUEIJÃO",
+        "conceptRange": ""
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó do CI/CE",
+    "displayTitle": "",
+    "body": "",
+    "_id": "615e01b43f71e3dffca2c70f",
+    "_parentId": "615e01953f71e3dffca2c70e",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     },
-    {
-        "_id": "c-135",
-        "_parentId": "b-90",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "_isOptional": true,
-        "title": "c-95",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
-        "_graphic": {
-            "src": "course/en/images/single-width.png",
-            "alt": "",
-            "attribution": ""
-        }
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
     },
-    {
-        "_id": "c-140",
-        "_parentId": "b-95",
-        "_type": "component",
-        "_component": "mcq",
-        "_classes": "",
-        "_layout": "left",
-        "_attempts": 1,
-        "_questionWeight": 1,
-        "_canShowModelAnswer": false,
-        "_shouldDisplayAttempts": false,
-        "_isRandom": true,
-        "_selectable": 4,
-        "title": "Control the scroll",
-        "displayTitle": "Control the scroll",
-        "body": "The <b>Trickle</b> extension makes it possible to control how the learner scrolls down the page, but what elements of a page can it be applied to?",
-        "instruction": "Choose an option and select Submit.",
-        "_items": [
-            {
-                "text": "Article",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Block",
-                "_shouldBeSelected": true
-            },
-            {
-                "text": "Component",
-                "_shouldBeSelected": false
-            },
-            {
-                "text": "Other extensions",
-                "_shouldBeSelected": false
-            }
-        ],
-        "_feedback": {
-            "title": "",
-            "correct": "",
-            "_partlyCorrect": {
-                "final": ""
-            },
-            "_incorrect": {
-                "final": ""
-            }
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": false
-        }
+    "_concepts": {
+      "omission": "1"
     },
-    {
-        "_id": "c-145",
-        "_parentId": "b-95",
-        "_type": "component",
-        "_component": "graphic",
-        "_classes": "",
-        "_layout": "right",
-        "_isOptional": true,
-        "title": "c-95",
-        "displayTitle": "",
-        "body": "",
-        "instruction": "",
-        "_graphic": {
-            "src": "course/en/images/single-width.png",
-            "alt": "",
-            "attribution": ""
-        }
+    "_wordLimit": "5",
+    "_words": [
+      {
+        "word": "DOCE",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "VOCÊ",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "CEBOLA",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "CEDO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "VACINA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "MACIO",
+        "conceptRange": "2,3"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": " Nó do GI/GE",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61606f583f71e3dffca2c713",
+    "_parentId": "61606f3d3f71e3dffca2c712",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
     },
-    {
-        "_id": "c-147",
-        "_parentId": "b-100",
-        "_type": "component",
-        "_component": "text",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Scoring bands",
-        "displayTitle": "",
-        "body": "The Assessment Results component allows you to specify the assessment pass mark, and provide tailored feedback to as many scoring bands as you wish.<br><br>In this short assessment we set the pass mark at 75% or above and provided four scoring bands, each of which has some accompanying feedback. The four scoring bands were:<br><br><ul><li>0-49% (fail)</li><li>50-74% (fail)</li><li>75-99% (pass)</li><li>100% (perfect score)</li></ul><br>So, how did you do? Let’s find out.",
-        "_canReset": true,
-        "_isResetOnRevisit": "hard",
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": false
-        }
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
     },
-    {
-        "_id": "c-150",
-        "_parentId": "b-105",
-        "_type": "component",
-        "_component": "assessmentResults",
-        "_classes": "",
-        "_layout": "full",
-        "_isVisibleBeforeCompletion": false,
-        "_assessmentId": "a-15",
-        "title": "Results",
-        "displayTitle": "Results",
-        "body": "",
-        "instruction": "",
-        "_retry": {
-            "button": "Retry Assessment",
-            "_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
-            "feedback": ""
-        },
-        "_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
-        "_completionBody": "{{{feedback}}}",
-        "_bands": [
-            {
-                "_score": 0,
-                "feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You didn’t do so well in the Adapt assessment demo, but don’t worry. There’s lots of information about the Adapt basics on <a href='http://www.adaptlearning.org/' target='_blank'>our site</a>. We’d also suggest you pay a visit to <a href='https://community.adaptlearning.org/mod/forum/view.php?id=4' target='_blank'>the forum</a> or <a href='https://gitter.im/adaptlearning/adapt_framework'>chat room</a> and ask our ever-helpful community to answer any questions that you might have.",
-                "_allowRetry": true
-            },
-            {
-                "_score": 50,
-                "feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You already know some of the Adapt basics but please explore <a href='http://www.adaptlearning.org/' target='_blank'>our site</a> for more information. Also pay a visit to <a href='https://community.adaptlearning.org/mod/forum/view.php?id=4' target='_blank'>the forum</a> or <a href='https://gitter.im/adaptlearning/adapt_framework'>chat room</a> and ask our ever-helpful community to answer any questions that you might have.",
-                "_allowRetry": true
-            },
-            {
-                "_score": 75,
-                "feedback": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already pretty knowledgeable about Adapt so, if you haven’t already, please consider sharing your expertise on the <a href='https://community.adaptlearning.org/mod/forum/view.php?id=4' target='_blank'>Adapt community forums</a>.",
-                "_allowRetry": true
-            },
-            {
-                "_score": 100,
-                "feedback": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already a black belt in Adapt! If you haven’t already, please consider sharing your expertise on the <a href='https://community.adaptlearning.org/mod/forum/view.php?id=4' target='_blank'>Adapt community forums</a>.",
-                "_allowRetry": false
-            }
-        ],
-        "_pageLevelProgress": {
-            "_isEnabled": true,
-            "_isCompletionIndicatorEnabled": false
-        }
-    }
+    "_concepts": {
+      "omission": "1"
+    },
+    "_wordLimit": "5",
+    "_words": [
+      {
+        "word": "VIAGEM",
+        "conceptRange": "3,4"
+      },
+      {
+        "word": "GELO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "MÁGICO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "GIRAFA",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "RELÓGIO",
+        "conceptRange": "4,5"
+      },
+      {
+        "word": "AGENDA",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "GEMA",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "TANGERINA",
+        "conceptRange": "3,4"
+      },
+      {
+        "word": "GIZ",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "GEL",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "GENTIL",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "GESSO",
+        "conceptRange": "0,1"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": " Nó do J",
+    "displayTitle": "",
+    "body": "",
+    "_id": "616070c13f71e3dffca2c717",
+    "_parentId": "616070a23f71e3dffca2c716",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "omission": "1"
+    },
+    "_wordLimit": "5",
+    "_words": [
+      {
+        "word": "JABUTI",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "JOGO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "JANELA",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "JOELHO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "JARDIM",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "LOJA",
+        "conceptRange": "2,3"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "N26",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6179ad8a3f71e3dffca2c71d",
+    "_parentId": "6179ad713f71e3dffca2c71c",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "omission": "1"
+    },
+    "_wordLimit": "5",
+    "_words": [
+      {
+        "word": "ARTE",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "ARCO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "IRMÃ",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "IRMÃO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "URSO",
+        "conceptRange": "0,1"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Vogal Consoante Vogal",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6194f4d13f71e3dffca2c722",
+    "_parentId": "6194f3273f71e3dffca2c721",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "omission": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "ELA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "ELE",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "AVE",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "OVO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "OLÁ",
+        "conceptRange": "0,2"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Vogal com N",
+    "displayTitle": "",
+    "body": "",
+    "_id": "6194faf23f71e3dffca2c726",
+    "_parentId": "6194f6b33f71e3dffca2c725",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "omission": "1"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "ANDO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "ONDA",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "ANJO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "ANTA",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "ENFEITE",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "ENJOO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "INJEÇÃO",
+        "conceptRange": "0,1"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Segundo fonema L V-C + L",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61a0e9ea3f71e3dffca2c72b",
+    "_parentId": "61a0e98d3f71e3dffca2c72a",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "omission": "1"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "ALTO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "ALGO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "ALFACE",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "OLFATO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "ALMOÇO",
+        "conceptRange": "0,1"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "dissílabas + 3 letras term com r",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61a0eaad3f71e3dffca2c72f",
+    "_parentId": "61a0ea8c3f71e3dffca2c72e",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "omission": "1"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "BARCO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "PORTA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "PORCO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "PERNA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "CARTA",
+        "conceptRange": "0,2"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó 28",
+    "displayTitle": "Nó 28",
+    "body": "",
+    "_id": "61b657793f71e3dffca2c745",
+    "_parentId": "61b657313f71e3dffca2c744",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "0",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "PONTE",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "PENTE",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "DENTE",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "BANCO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "CINTO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "CINCO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "PINGO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "MANGA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "MUNDO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "TONTO",
+        "conceptRange": "2,3"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó 29",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61bb6f053f71e3dffca2c749",
+    "_parentId": "61bb6ef13f71e3dffca2c748",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "1",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "ANEL",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "ANIMAL",
+        "conceptRange": "4,5"
+      },
+      {
+        "word": "AZUL",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "BALDE",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "PAPEL",
+        "conceptRange": "3,4"
+      },
+      {
+        "word": "CALMA",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "NATAL",
+        "conceptRange": "3,4"
+      },
+      {
+        "word": "FÁCIL",
+        "conceptRange": "3,4"
+      },
+      {
+        "word": "FILME",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "FUTEBOL",
+        "conceptRange": "5,6"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó 30",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61c084b13f71e3dffca2c74d",
+    "_parentId": "61c084a73f71e3dffca2c74c",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "1",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "CAMPO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "TAMPA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "TOMBO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "LIMPO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "POMBO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "BOMBOM",
+        "conceptRange": "0,5"
+      },
+      {
+        "word": "RAMPA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "LÂMPADA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "POMPOM",
+        "conceptRange": "0,5"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó 31",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61c0856d3f71e3dffca2c751",
+    "_parentId": "61c085523f71e3dffca2c750",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "1",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "CASA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "MESA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "PESO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "RASO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "ROSA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "VASO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "FAMOSA",
+        "conceptRange": "4,5"
+      },
+      {
+        "word": "CASACO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "RISOTO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "CAMISA",
+        "conceptRange": "4,5"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó 32",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61c086903f71e3dffca2c755",
+    "_parentId": "61c0867a3f71e3dffca2c754",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "1",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "ISSO",
+        "conceptRange": "1,3"
+      },
+      {
+        "word": "ASSADO",
+        "conceptRange": "1,3"
+      },
+      {
+        "word": "ASSOBIO",
+        "conceptRange": "1,3"
+      },
+      {
+        "word": "MASSA",
+        "conceptRange": "1,3"
+      },
+      {
+        "word": "NOSSO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "OSSO",
+        "conceptRange": "1,3"
+      },
+      {
+        "word": "GESSO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "PESSOA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "TOSSE",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "PASSO",
+        "conceptRange": "2,4"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": " Nó 33",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61c4bf293d1dca03e67ae21f",
+    "_parentId": "61c4b6c13d1dca03e67ae215",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "0",
+      "speech": "1"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "CARA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "PAREDE",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "CARECA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "FAROFA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "XAROPE",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "NÚMERO",
+        "conceptRange": "4,5"
+      },
+      {
+        "word": "PIRATA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "CERA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "GAROTO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "XÍCARA",
+        "conceptRange": "4,5"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": " Nó 34",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61c4bf5c3d1dca03e67ae220",
+    "_parentId": "61c4b6c43d1dca03e67ae218",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "0",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "TERRA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "CARRO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "MORRO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "ESPIRRO",
+        "conceptRange": "4,6"
+      },
+      {
+        "word": "BARRIGA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "BARRACA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "CORRIDA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "FERRO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "GARRAFA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "TORRE",
+        "conceptRange": "2,4"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": " Nó 35",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61c4bf823d1dca03e67ae221",
+    "_parentId": "61c4b6c53d1dca03e67ae21b",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "1",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "MANHA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "SONHO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "NENHUM",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "FARINHA",
+        "conceptRange": "4,6"
+      },
+      {
+        "word": "DINHEIRO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "DESENHO",
+        "conceptRange": "4,6"
+      },
+      {
+        "word": "UNHA",
+        "conceptRange": "1,3"
+      },
+      {
+        "word": "ESPINHO",
+        "conceptRange": "4,6"
+      },
+      {
+        "word": "GALINHA",
+        "conceptRange": "4,6"
+      },
+      {
+        "word": "RAINHA",
+        "conceptRange": "3,5"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": " Nó 36",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61c4bf9d3d1dca03e67ae222",
+    "_parentId": "61c4b6c63d1dca03e67ae21e",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "0",
+      "orthographic": "0",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "HOJE",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "HOMEM",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "HORA",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "HERÓI",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "HORTA",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "HOTEL",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "HINO",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "HOSPITAL",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "HISTÓRIA",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "HIGIENE",
+        "conceptRange": "0,1"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó 37",
+    "displayTitle": "",
+    "body": "",
+    "_id": "61f7fa293d1dca03e67ae227",
+    "_parentId": "61f7fa173d1dca03e67ae226",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "0",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "QUEIJO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "QUEIXO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "AQUILO",
+        "conceptRange": "1,3"
+      },
+      {
+        "word": "AQUELE",
+        "conceptRange": "1,3"
+      },
+      {
+        "word": "QUEM",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "QUERO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "QUINTA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "QUERIDO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "QUILO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "MÁQUINA",
+        "conceptRange": "2,4"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó 38",
+    "displayTitle": "",
+    "body": "",
+    "_id": "620d0e123d1dca03e67ae22f",
+    "_parentId": "620d0df53d1dca03e67ae22e",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "1",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "MILHO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "BOLHA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "PALHA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "VELHO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "ABELHA",
+        "conceptRange": "3,5"
+      },
+      {
+        "word": "COELHO",
+        "conceptRange": "3,5"
+      },
+      {
+        "word": "FILHO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "FOLHA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "ILHA",
+        "conceptRange": "1,3"
+      },
+      {
+        "word": "OLHO",
+        "conceptRange": "1,3"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó 39",
+    "displayTitle": "",
+    "body": "",
+    "_id": "620d329e3d1dca03e67ae233",
+    "_parentId": "620d328a3d1dca03e67ae232",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "1",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "CHÁ",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "CHAVE",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "CHUVA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "BICHO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "MOCHILA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "CHOCOLATE",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "CHUCHU",
+        "conceptRange": "0,5"
+      },
+      {
+        "word": "CHUTE",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "MACHUCADO",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "CACHORRO",
+        "conceptRange": "2,4"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó 40",
+    "displayTitle": "",
+    "body": "",
+    "_id": "620d400d3d1dca03e67ae237",
+    "_parentId": "620d3ffa3d1dca03e67ae236",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "1",
+      "intrusion": "0",
+      "memory": "1",
+      "orthographic": "0",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "CLUBE",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "BLUSA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "GLOBO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "CLIMA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "BICICLETA",
+        "conceptRange": "5,7"
+      },
+      {
+        "word": "TECLA",
+        "conceptRange": "2,4"
+      },
+      {
+        "word": "CLIMA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "FLAUTA",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "BLOCO",
+        "conceptRange": "0,2"
+      },
+      {
+        "word": "DUPLA",
+        "conceptRange": "2,4"
+      }
+    ]
+  },
+  {
+    "_component": "totaApp",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Nó 41",
+    "displayTitle": "",
+    "body": "",
+    "_id": "620d40a73d1dca03e67ae23b",
+    "_parentId": "620d40953d1dca03e67ae23a",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_concepts": {
+      "phonic": "0",
+      "graphic": "0",
+      "omission": "0",
+      "intrusion": "0",
+      "memory": "0",
+      "orthographic": "1",
+      "speech": "0"
+    },
+    "_wordLimit": "5",
+    "_resumable": false,
+    "_words": [
+      {
+        "word": "MOÇO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "POÇO",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "AÇAÍ",
+        "conceptRange": "1,2"
+      },
+      {
+        "word": "CABEÇA",
+        "conceptRange": "4,5"
+      },
+      {
+        "word": "CAROÇO",
+        "conceptRange": "4,5"
+      },
+      {
+        "word": "DANÇAR",
+        "conceptRange": "3,4"
+      },
+      {
+        "word": "TAÇA",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "ALMOÇO",
+        "conceptRange": "4,5"
+      },
+      {
+        "word": "MAÇÃ",
+        "conceptRange": "2,3"
+      },
+      {
+        "word": "NATAÇÃO",
+        "conceptRange": "4,5"
+      }
+    ]
+  }
 ]
