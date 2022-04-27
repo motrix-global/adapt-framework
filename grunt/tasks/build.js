@@ -16,6 +16,7 @@ module.exports = function(grunt) {
     'clean:dist',
     'less:compile',
     'replace',
+    'cachebreaker',
     'scripts:adaptpostbuild',
     'clean:temp',
     'minify'

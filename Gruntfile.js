@@ -1,7 +1,6 @@
-var path = require('path');
-
 module.exports = function(grunt) {
-  var helpers = require('./grunt/helpers')(grunt);
+  const path = require('path');
+  const helpers = require('./grunt/helpers')(grunt);
 
   require('time-grunt')(grunt);
   require('load-grunt-config')(grunt, {
@@ -10,7 +9,8 @@ module.exports = function(grunt) {
     jitGrunt: {
       customTasksDir: path.join(__dirname, 'grunt', 'tasks'),
       staticMappings: {
-        bower: 'grunt-bower-requirejs'
+        bower: 'grunt-bower-requirejs',
+        cachebreaker: 'grunt-cache-breaker'
       }
     }
   });
