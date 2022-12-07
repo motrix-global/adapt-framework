@@ -11,102 +11,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "615368803f71e3dffca2c6f4",
-    "_parentId": "615368803f71e3dffca2c6ec",
-    "_type": "article",
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    }
-  },
-  {
-    "title": "CH",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_requireCompletionOf": -1,
-    "_ariaLevel": 0,
-    "_id": "615368803f71e3dffca2c6f5",
-    "_parentId": "615368803f71e3dffca2c6ed",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_vanilla": {
-      "_backgroundImage": {
-        "_large": "",
-        "_medium": "",
-        "_small": ""
-      },
-      "_backgroundStyles": {
-        "_backgroundRepeat": "repeat",
-        "_backgroundSize": "auto",
-        "_backgroundPosition": "left top"
-      }
-    }
-  },
-  {
-    "title": "New Article Title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_requireCompletionOf": -1,
-    "_ariaLevel": 0,
-    "_id": "615368803f71e3dffca2c6f6",
-    "_parentId": "615368803f71e3dffca2c6ee",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_vanilla": {
-      "_backgroundImage": {
-        "_large": "",
-        "_medium": "",
-        "_small": ""
-      },
-      "_backgroundStyles": {
-        "_backgroundRepeat": "repeat",
-        "_backgroundSize": "auto",
-        "_backgroundPosition": "left top"
-      }
-    }
-  },
-  {
-    "title": "New Article Title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_requireCompletionOf": -1,
-    "_ariaLevel": 0,
-    "_id": "615368803f71e3dffca2c6f7",
-    "_parentId": "615368803f71e3dffca2c6ef",
+    "_id": "838739706503250d28e9f241d044065a",
+    "_parentId": "c9ce1bef78fac6b3f65f59c818b46643",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -125,45 +31,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "615368803f71e3dffca2c6f8",
-    "_parentId": "615368803f71e3dffca2c6f0",
-    "_type": "article",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    },
-    "_vanilla": {
-      "_backgroundImage": {
-        "_large": "",
-        "_medium": "",
-        "_small": ""
-      },
-      "_backgroundStyles": {
-        "_backgroundRepeat": "repeat",
-        "_backgroundSize": "auto",
-        "_backgroundPosition": "left top"
-      }
-    }
-  },
-  {
-    "title": "New Article Title",
-    "displayTitle": "",
-    "body": "",
-    "_classes": "",
-    "instruction": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_requireCompletionOf": -1,
-    "_ariaLevel": 0,
-    "_id": "615368803f71e3dffca2c6f9",
-    "_parentId": "615368803f71e3dffca2c6f1",
+    "_id": "64df35ce8c62312427b113bd96818171",
+    "_parentId": "30bc93c6e5fb81fc894780d053feff40",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -182,8 +51,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "615368803f71e3dffca2c6fa",
-    "_parentId": "615368803f71e3dffca2c6f2",
+    "_id": "288aa5fd984c15d80514cba45c2982a6",
+    "_parentId": "a4295bcb96178a806351207b1e66196c",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -202,8 +71,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "615368803f71e3dffca2c6fb",
-    "_parentId": "615368803f71e3dffca2c6f3",
+    "_id": "dac4ab7ae75c7e7b02ca19824cb4fa3a",
+    "_parentId": "2557200ee60cdffbde53be787e0139f6",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -222,8 +91,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "615e01953f71e3dffca2c70d",
-    "_parentId": "615e01943f71e3dffca2c70c",
+    "_id": "a6b0b7caa4ef3f592155f61fafccddcb",
+    "_parentId": "293b56b4d2e797c84dfe44d39f904db0",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -242,8 +111,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61606f3d3f71e3dffca2c711",
-    "_parentId": "61606f3c3f71e3dffca2c710",
+    "_id": "ebb7698e9813d9a3d6fe6e5400c8cfc4",
+    "_parentId": "7a52212043fab9e7f82cf8f258170e18",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -262,8 +131,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "616070a13f71e3dffca2c715",
-    "_parentId": "616070a13f71e3dffca2c714",
+    "_id": "f726a0f5d838b9d042ef66c6f52507fc",
+    "_parentId": "80b10b2ff1b19319fcf0a9e2084712a0",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -282,8 +151,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "6179ad713f71e3dffca2c71b",
-    "_parentId": "6179ad703f71e3dffca2c71a",
+    "_id": "eb319c9d130162a32b844e6f207807a9",
+    "_parentId": "2379bce33b24a7a6b068b850aa7a0a95",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -302,8 +171,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "6194f3273f71e3dffca2c720",
-    "_parentId": "6194f3273f71e3dffca2c71f",
+    "_id": "a34b26e34e134944861a9d5807b8907e",
+    "_parentId": "7dda0202e4da010ccbab58ec5dee9a3b",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -322,8 +191,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "6194f6b33f71e3dffca2c724",
-    "_parentId": "6194f6b33f71e3dffca2c723",
+    "_id": "e2e0396a3edbfbb8b4d359740110d8c5",
+    "_parentId": "ef8ea8553842060e66ab2da12736babf",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -342,8 +211,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61a0e98d3f71e3dffca2c729",
-    "_parentId": "61a0e98d3f71e3dffca2c728",
+    "_id": "47b5fbb82cdcd92bbaa79f6ef0031dae",
+    "_parentId": "b7ed85f68b78b0307822d970c0d29932",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -362,8 +231,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61a0ea8b3f71e3dffca2c72d",
-    "_parentId": "61a0ea8b3f71e3dffca2c72c",
+    "_id": "4b125eaa83c81a76e36884b7e61ab661",
+    "_parentId": "937682bf6be88859513998401c77c906",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -382,8 +251,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61b657313f71e3dffca2c743",
-    "_parentId": "61b657313f71e3dffca2c742",
+    "_id": "92aeee47d159a1b7bdfffb4577a50b17",
+    "_parentId": "78f4a6ffdc737dfe3f657023db352757",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -402,8 +271,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61bb6ef03f71e3dffca2c747",
-    "_parentId": "61bb6ef03f71e3dffca2c746",
+    "_id": "bfe91bf208955fa7e177c1180e6663e1",
+    "_parentId": "ad3a53c38087568e8e40e9293d3de70c",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -422,8 +291,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61c084a73f71e3dffca2c74b",
-    "_parentId": "61c084a63f71e3dffca2c74a",
+    "_id": "16412cf3199cd8b5c7901e8bcefdf5d3",
+    "_parentId": "ec5ea4077b327ffbab15161c74a6bb4b",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -442,8 +311,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61c085523f71e3dffca2c74f",
-    "_parentId": "61c085513f71e3dffca2c74e",
+    "_id": "4004c73b90ed67ef04ede82dab531055",
+    "_parentId": "b2b389c232ffe854b8cf899c09ed085e",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -462,8 +331,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61c0867a3f71e3dffca2c753",
-    "_parentId": "61c086793f71e3dffca2c752",
+    "_id": "01f09742ad5df4c6ea399dc568e2d95e",
+    "_parentId": "60e09a4f567e94ee0ae17b8b8e417771",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -482,8 +351,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61c4b6c13d1dca03e67ae214",
-    "_parentId": "61c4b6c03d1dca03e67ae213",
+    "_id": "003d81ea2a081246a9a72aac4d91344c",
+    "_parentId": "7905fee7cd2d2ba8bef78e904993cdab",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -502,8 +371,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61c4b6c43d1dca03e67ae217",
-    "_parentId": "61c4b6c33d1dca03e67ae216",
+    "_id": "038382c2a11745c7962718637b66afbd",
+    "_parentId": "c57ad9b8843ecd931fb621b8f64528e7",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -522,8 +391,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61c4b6c53d1dca03e67ae21a",
-    "_parentId": "61c4b6c43d1dca03e67ae219",
+    "_id": "55c9d3cae4b403504c588883376942b9",
+    "_parentId": "741dc849a7fef150c578c8542b32aa84",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -542,8 +411,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61c4b6c63d1dca03e67ae21d",
-    "_parentId": "61c4b6c63d1dca03e67ae21c",
+    "_id": "a525c10548a4f09d6a723919fff189b6",
+    "_parentId": "0458f05b7e521312fae20aa2e404b4b1",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -562,8 +431,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "61f7fa163d1dca03e67ae225",
-    "_parentId": "61f7fa163d1dca03e67ae224",
+    "_id": "1b5aaf4a060b6f60a9163fccdfafe3b3",
+    "_parentId": "19bf67e4040eb8f7d416d1b12decef5d",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -582,8 +451,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "620d0df43d1dca03e67ae22d",
-    "_parentId": "620d0df43d1dca03e67ae22c",
+    "_id": "b0cb9ef09162a55788239adc81fcb0ae",
+    "_parentId": "51ba4bf0fe4452330120dbcab6583f64",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -602,8 +471,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "620d32893d1dca03e67ae231",
-    "_parentId": "620d32893d1dca03e67ae230",
+    "_id": "2b1a25caaa06c7a3f52de5c686132ff2",
+    "_parentId": "c4261afece3a914ddf27aa76c93446cf",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -622,8 +491,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "620d3ff93d1dca03e67ae235",
-    "_parentId": "620d3ff93d1dca03e67ae234",
+    "_id": "44a931f59a5a783be5a5f855d105705c",
+    "_parentId": "9c57df2c81769d2ecbdb7acdad9128e8",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -642,8 +511,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "620d40953d1dca03e67ae239",
-    "_parentId": "620d40953d1dca03e67ae238",
+    "_id": "6b4ff9ee16cbd491e4288655c1b1d193",
+    "_parentId": "b231d5f29688cb240b379ece8b8940c9",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -662,8 +531,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "6242f9147fdce81ec04c7540",
-    "_parentId": "6242f9137fdce81ec04c753f",
+    "_id": "31ad98438321d6ebb0b6645a1fc404f8",
+    "_parentId": "2d40c4599c5a39a7e2ad70b40a2f4144",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -682,8 +551,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "6242feb17fdce81ec04c7544",
-    "_parentId": "6242feb07fdce81ec04c7543",
+    "_id": "93072c965775bb3476aae35c3453b1f2",
+    "_parentId": "821ec287dd0e0ce7dd7771ffe28f5388",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -702,8 +571,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "624300097fdce81ec04c7548",
-    "_parentId": "624300087fdce81ec04c7547",
+    "_id": "350366a055588688c7d59665aa51dccc",
+    "_parentId": "b97c3b6e0c0d4d0bdff21de38d0b2a61",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -722,8 +591,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "624304667fdce81ec04c754c",
-    "_parentId": "624304657fdce81ec04c754b",
+    "_id": "39c846de5deda603a1272e307619f63a",
+    "_parentId": "dcc743870d06c465e56bf66a99e90faa",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -742,8 +611,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "6256d1356871f5065c9ed807",
-    "_parentId": "6256d1356871f5065c9ed806",
+    "_id": "9c922c456d018b57df92f01ad913dd92",
+    "_parentId": "755a17ecba39d99908883416da841275",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -762,8 +631,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "62582ae26871f5065c9ed80b",
-    "_parentId": "62582ae26871f5065c9ed80a",
+    "_id": "c97b23788afc741de20398d5bc00ae56",
+    "_parentId": "2816010c59d4770bf1d1ed734e00bc0f",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -782,8 +651,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "62582c356871f5065c9ed80f",
-    "_parentId": "62582c346871f5065c9ed80e",
+    "_id": "ef6d71b42f353b98e2d71b1e1901362a",
+    "_parentId": "4950325abb0351138f219fe9d2ef78d5",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -802,8 +671,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "62582c3b6871f5065c9ed812",
-    "_parentId": "62582c3a6871f5065c9ed811",
+    "_id": "3e4adde2550474cf1a698effcb7a37e8",
+    "_parentId": "970304de1a783bff226b3455fa01c968",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -822,8 +691,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "62582c3f6871f5065c9ed815",
-    "_parentId": "62582c3f6871f5065c9ed814",
+    "_id": "f0b4915e0d66a260a241557f66733b00",
+    "_parentId": "8f5f8228ce072f3fc17ae44808142128",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -842,8 +711,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "62582c726871f5065c9ed818",
-    "_parentId": "62582c726871f5065c9ed817",
+    "_id": "97f26e97fa34a8a6ccd321d854ba4d45",
+    "_parentId": "66c3a229667125309421cc67fba4df04",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -862,8 +731,8 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "62582c756871f5065c9ed81b",
-    "_parentId": "62582c746871f5065c9ed81a",
+    "_id": "242408ff64751a715bcc1daf90d9a8ea",
+    "_parentId": "a6b7e2c44efe66e9fa8af6706b10a442",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
@@ -882,8 +751,868 @@
     "_isVisible": true,
     "_requireCompletionOf": -1,
     "_ariaLevel": 0,
-    "_id": "62582d556871f5065c9ed81e",
-    "_parentId": "62582d556871f5065c9ed81d",
+    "_id": "0a50c4cc66d0c832244936bccfb377de",
+    "_parentId": "26507b306841f1976d8f394411654777",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "a2e75abc190363ceddf1d56f6627f77f",
+    "_parentId": "b20107123ff4d18d205b6b8ac720c160",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "a19063b27aede0e17c0809f98f3384a8",
+    "_parentId": "2bfdd7bc94bbba9dcf9160638bb90e7c",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "f8e27356c6be0d2a2acf68d26e565c75",
+    "_parentId": "6a9cdcac9f9f17d49799c257a08937f0",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "ff7bde7aaea01aea41672d42bb2aebdc",
+    "_parentId": "dbf1ba0916d9a22229231eb3a0d0792a",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "c2df744d1496396fc01a5e449d000141",
+    "_parentId": "8a4466c6ee4cad6f7af5b48e2a51b0fb",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "90824260a537a5b8c1070dd8a3f04eed",
+    "_parentId": "b79720ee9120634a2a538718a616ad32",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "7c22cf7ccd44b24ab024203c4879d7b3",
+    "_parentId": "f2b7f4dbf11ff695d9ee7992420f320a",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "34bff1588fa1487feca759e3ce113f23",
+    "_parentId": "294157a16ff651989736456cbd448109",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "36f1ac8efd1d19036da1a76308ad96bd",
+    "_parentId": "4df6686a8edd8055e4e970607c90f4ed",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "b33d53f7c336a3e24aa272164931d19b",
+    "_parentId": "2fa3f14b837c1fd00b7ba5f912f61cc5",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "14b068b4b5bfdc95923184ff5833a609",
+    "_parentId": "fc0ee82790b44007381314c1b0151742",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "77803080fca5f41d7716711707029a09",
+    "_parentId": "984e189bcfa339d1a1de43a0cd821324",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "02baf3c86a153b5252714110e1d8a21f",
+    "_parentId": "c032b47ad0ce89876e684e6c06178830",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "431870f04e520f8adedf786538eb2a78",
+    "_parentId": "3bd433f354cd10fdcc7189b9eb663cfe",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "92d21042c32fdf0ef9ac8d58865e3ac8",
+    "_parentId": "bcc742f91f7cfd131b64cdf370cac24d",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "45ff87dc464331ef42be712d8882b6df",
+    "_parentId": "795196e58c54bf30f1785df6f41a37ad",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "fb230ec3fa392cdbbc6d2f34923c2f67",
+    "_parentId": "fde134b844aa57827ee4df2dc8fb5aad",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "1974821c865e64dd0070e33932aa734a",
+    "_parentId": "e7909e5305925cf0990a7f1b48cfac0a",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "b9aef646bbc635dc727a5421440ec800",
+    "_parentId": "b8cdb94765e9eed7c54185164647af01",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "fcee3cc978d459183773f5cf8a8724c9",
+    "_parentId": "9f5045a71564c7964ee25a3d6e36acdc",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "8e532e99021cc0b9e68c6208f4a4b795",
+    "_parentId": "c3263a29e41efae73b0f6df8400e859a",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "4033b821478e49cebb5a99748de120f8",
+    "_parentId": "71a12c5bb02a6d3d7f419f086e5506da",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "9230adef19835e01a3169ba02d62651e",
+    "_parentId": "b0292bcba8669c1fe7ed57b8bdbd3153",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "30320bec3d8e979b1d795bef2b79abe9",
+    "_parentId": "4618ad5a158bac5ff16407e0efc5b412",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "7cbbe818bd2bbbf2a19ecdc2b6f38874",
+    "_parentId": "79f82ac127de5eef911d30d04d7655c0",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "4694e36a5a808b126371063df227feee",
+    "_parentId": "c11e60c6a1af10ea08b17dc5c32529d2",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "8f5843b94426ca91a69778d098da428b",
+    "_parentId": "152dea0926ca6e9533f5e646a64b0511",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "a93b0b0506eb7346d9ef4ce16433e814",
+    "_parentId": "2b657fc8ddd9fdcfd759ab9262676687",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "c65d49557646defb24221d882a72021d",
+    "_parentId": "e198a0c6a029db3ee59f37ac21213d47",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "3f9e007eab8381b32b32003c09de0cf7",
+    "_parentId": "c95a0f53b45c63e0813c5b21955ef001",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "3ad2fde51886b970b033f2896b1f06ca",
+    "_parentId": "56edbe1aae68c2d1bf76ecabe2cb7b1e",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "f2f73722e60ca1bad7d20ca8a332ed77",
+    "_parentId": "7867ffbff3c9c76c3adec06a1cacd097",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "fd56eb00ec4e6f2e5b372fa2b1474ace",
+    "_parentId": "4d21db56138d2525594917a495ff4b31",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "ba1a14a09455da109d54add17c401914",
+    "_parentId": "25af4a229366fcf2077d0c5529151ff3",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "04b80fdedcbcdf9940ab18103d30e4ee",
+    "_parentId": "c66e3e6afaa3951cc7520b194e6f8acf",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "60a79e32e4b86b3e7a6ca4e16cfb9a11",
+    "_parentId": "f3b7d04d68422f192e6f42a48265f744",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "5bafbe1f2c92c086a116b0c11bba0a58",
+    "_parentId": "347edc813fc97e69492ae247df26b2a8",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "3a02117532ad063cf1e3b98485210bc9",
+    "_parentId": "d24a94b691217efc513edf62cf7c95fa",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "aba6c9bbd0d93b257a00c86a948e2938",
+    "_parentId": "477a02c36c2536486316ca60c1c21b28",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "a6451e6c3971bd42a13c89e2ecbf5e72",
+    "_parentId": "bb9d5c57a0a39cc8334c7e8b897cd5de",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "4bba33bdec9d47a6dc11118f6cfc8163",
+    "_parentId": "bffddf56f26920fd4bc79a58b5a1ee15",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "00bfcd91cd3af1053bd88d00a2ddd24c",
+    "_parentId": "07dc5160f591027771a3b188a3636e24",
+    "_type": "article",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "title": "New Article Title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "",
+    "instruction": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_id": "24e3c872a6ce56fdef3b3978f8d89bfe",
+    "_parentId": "3c71fc572cd228ddd18dc228537de1cd",
     "_type": "article",
     "_pageLevelProgress": {
       "_isEnabled": false,
