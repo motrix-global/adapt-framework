@@ -19,6 +19,7 @@ module.exports = function(grunt) {
     'cachebreaker',
     'scripts:adaptpostbuild',
     'clean:temp',
-    'minify'
+    'minify',
+    'upload-to-s3'
   ]);
 };

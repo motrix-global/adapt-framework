@@ -65,6 +65,7 @@
         "eslint-plugin-react": "^7.23.2",
         "eslint-plugin-requirejs": "^4.0.1",
         "eslint-plugin-standard": "^5.0.0",
+        "grunt-aws": "^0.7.1",
         "grunt-cache-breaker": "^2.0.1"
     },
     "optionalDependencies": {
