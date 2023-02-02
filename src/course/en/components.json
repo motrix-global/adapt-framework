@@ -941,7 +941,8 @@
         "conceptRange": "0,3",
         "destinationNodeID": "bcc742f91f7cfd131b64cdf370cac24d"
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -1011,12 +1012,9 @@
       {
         "word": "RI",
         "conceptRange": "0,1"
-      },
-      {
-        "word": "LU",
-        "conceptRange": "0,1"
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -1076,7 +1074,15 @@
         "conceptRange": "0,1"
       },
       {
-        "word": "CÁ",
+        "word": "VÓ",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "PÉ",
+        "conceptRange": "0,1"
+      },
+      {
+        "word": "TU",
         "conceptRange": "0,1"
       },
       {
@@ -1100,22 +1106,15 @@
         "conceptRange": "0,1"
       },
       {
-        "word": "VÓ",
-        "conceptRange": "0,1"
-      },
-      {
-        "word": "TU",
-        "conceptRange": "0,1"
-      },
-      {
         "word": "PÁ",
         "conceptRange": "0,1"
       },
       {
-        "word": "PÉ",
+        "word": "CÁ",
         "conceptRange": "0,1"
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -1178,6 +1177,10 @@
         ]
       },
       {
+        "word": "FADA",
+        "conceptRange": "0,3"
+      },
+      {
         "word": "JATO",
         "conceptRange": "0,3",
         "closedVowels": [
@@ -1185,7 +1188,7 @@
         ]
       },
       {
-        "word": "ROLA",
+        "word": "BOLA",
         "conceptRange": "0,3"
       },
       {
@@ -1196,11 +1199,7 @@
         ]
       },
       {
-        "word": "FADA",
-        "conceptRange": "0,3"
-      },
-      {
-        "word": "BOLA",
+        "word": "ROLA",
         "conceptRange": "0,3"
       },
       {
@@ -1232,7 +1231,8 @@
         "word": "VAZA",
         "conceptRange": "0,3"
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -1266,6 +1266,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -1316,7 +1319,8 @@
         "conceptRange": "1,1",
         "closedVowels": []
       }
-    ]
+    ],
+    "conceptPattern": "[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -1348,18 +1352,6 @@
       "phonic": {
         "weight": 1
       },
-      "graphic": {
-        "weight": 1
-      },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
-        "weight": 1
-      },
       "orthographic": {
         "weight": -1
       },
@@ -1373,30 +1365,30 @@
     "_words": [
       {
         "word": "LAMA",
-        "conceptRange": "0,3"
+        "conceptRange": "1,1"
       },
       {
         "word": "DAMA",
-        "conceptRange": "0,3"
+        "conceptRange": "1,1"
       },
       {
         "word": "FAMA",
-        "conceptRange": "0,3"
+        "conceptRange": "1,1"
       },
       {
         "word": "CAMA",
-        "conceptRange": "0,3"
+        "conceptRange": "1,1"
       },
       {
         "word": "PANO",
-        "conceptRange": "0,3",
+        "conceptRange": "1,1",
         "closedVowels": [
           3
         ]
       },
       {
         "word": "REMO",
-        "conceptRange": "0,3",
+        "conceptRange": "1,1",
         "closedVowels": [
           1,
           3
@@ -1404,7 +1396,7 @@
       },
       {
         "word": "DEDO",
-        "conceptRange": "0,3",
+        "conceptRange": "1,1",
         "closedVowels": [
           1,
           3
@@ -1412,14 +1404,14 @@
       },
       {
         "word": "BOCA",
-        "conceptRange": "0,3",
+        "conceptRange": "1,1",
         "closedVowels": [
           1
         ]
       },
       {
         "word": "LOBO",
-        "conceptRange": "0,3",
+        "conceptRange": "1,1",
         "closedVowels": [
           1,
           3
@@ -1427,12 +1419,13 @@
       },
       {
         "word": "GOTA",
-        "conceptRange": "0,3",
+        "conceptRange": "1,1",
         "closedVowels": [
           1
         ]
       }
-    ]
+    ],
+    "conceptPattern": "[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -1461,16 +1454,7 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
-      "graphic": {
-        "weight": 1
-      },
       "omission": {
-        "weight": 1
-      },
-      "intrusion": {
         "weight": 1
       },
       "memory": {
@@ -1509,7 +1493,8 @@
           0
         ]
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -1572,7 +1557,8 @@
         "word": "AR",
         "conceptRange": "0,1"
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -1609,6 +1595,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -1628,14 +1617,14 @@
         "conceptRange": "1,2"
       },
       {
-        "word": "BOA",
+        "word": "VOA",
         "conceptRange": "1,2",
         "closedVowels": [
           1
         ]
       },
       {
-        "word": "VOA",
+        "word": "BOA",
         "conceptRange": "1,2",
         "closedVowels": [
           1
@@ -1667,7 +1656,8 @@
         "word": "SUA",
         "conceptRange": "1,2"
       }
-    ]
+    ],
+    "conceptPattern": "[aeiouáéíóúàâêôãõ][aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -1727,6 +1717,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -1774,7 +1767,8 @@
         "word": "MAS",
         "conceptRange": "0,2"
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -1811,6 +1805,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -1868,7 +1865,8 @@
         "word": "UVA",
         "conceptRange": "0,2"
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -1928,6 +1926,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -1987,7 +1988,8 @@
         "word": "RIR",
         "conceptRange": "0,2"
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -2069,13 +2071,6 @@
         "conceptRange": "0,1"
       },
       {
-        "word": "AO",
-        "conceptRange": "0,1",
-        "closedVowels": [
-          1
-        ]
-      },
-      {
         "word": "EI",
         "conceptRange": "0,1",
         "closedVowels": [
@@ -2088,8 +2083,16 @@
         "closedVowels": [
           0
         ]
+      },
+      {
+        "word": "AO",
+        "conceptRange": "0,1",
+        "closedVowels": [
+          1
+        ]
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -2145,6 +2148,10 @@
     "_resumable": false,
     "_words": [
       {
+        "word": "ISCA",
+        "conceptRange": "0,1"
+      },
+      {
         "word": "ESTE",
         "conceptRange": "0,1",
         "closedVowels": [
@@ -2165,17 +2172,14 @@
         "conceptRange": "0,1"
       },
       {
-        "word": "ISCA",
-        "conceptRange": "0,1"
-      },
-      {
         "word": "ASCO",
         "conceptRange": "0,1",
         "closedVowels": [
           3
         ]
       }
-    ]
+    ],
+    "conceptPattern": "[aeiouáéíóúàâêôãõ]S"
   },
   {
     "_component": "totaApp",
@@ -2204,16 +2208,7 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
-      "graphic": {
-        "weight": 1
-      },
       "omission": {
-        "weight": 1
-      },
-      "intrusion": {
         "weight": 1
       },
       "memory": {
@@ -2273,16 +2268,9 @@
       {
         "word": "ORCA",
         "conceptRange": "0,1"
-      },
-      {
-        "word": "ERGO",
-        "conceptRange": "0,1",
-        "closedVowels": [
-          0,
-          3
-        ]
       }
-    ]
+    ],
+    "conceptPattern": "[aeiouáéíóúàâêôãõ]R"
   },
   {
     "_component": "totaApp",
@@ -2344,7 +2332,8 @@
           2
         ]
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -2381,6 +2370,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -2441,7 +2433,8 @@
         "word": "CUTIA",
         "conceptRange": "3,4"
       }
-    ]
+    ],
+    "conceptPattern": "[aeiouáéíóúàâêôãõ][aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -2478,6 +2471,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -2500,13 +2496,6 @@
         "conceptRange": "0,5",
         "closedVowels": [
           5
-        ]
-      },
-      {
-        "word": "BEBIDA",
-        "conceptRange": "0,5",
-        "closedVowels": [
-          1
         ]
       },
       {
@@ -2545,8 +2534,13 @@
         "closedVowels": [
           5
         ]
+      },
+      {
+        "word": "PANELA",
+        "conceptRange": "0,5"
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -2582,7 +2576,13 @@
         "weight": 1
       },
       "phonic": {
+        "weight": 1
+      },
+      "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -2654,7 +2654,8 @@
           5
         ]
       }
-    ]
+    ],
+    "conceptPattern": "C[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -2690,10 +2691,13 @@
         "weight": 1
       },
       "phonic": {
-        "weight": -1
+        "weight": 1
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -2758,7 +2762,8 @@
           6
         ]
       }
-    ]
+    ],
+    "conceptPattern": "G[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -2795,6 +2800,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -2863,7 +2871,8 @@
         "word": "CAIXA",
         "conceptRange": "0,2"
       }
-    ]
+    ],
+    "conceptPattern": "[bcdfghjklmnpqrstvwxyz][aeiouáéíóúàâêôãõ][aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -2900,6 +2909,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -2967,7 +2979,8 @@
           1
         ]
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -3007,6 +3020,9 @@
       },
       "phonic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -3052,7 +3068,8 @@
         "word": "CAL",
         "conceptRange": "0,2"
       }
-    ]
+    ],
+    "conceptPattern": ".+"
   },
   {
     "_component": "totaApp",
@@ -3112,6 +3129,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -3178,7 +3198,8 @@
         "word": "TESTA",
         "conceptRange": "0,2"
       }
-    ]
+    ],
+    "conceptPattern": "[bcdfghjklmnpqrstvwxyz][aeiouáéíóúàâêôãõ]S"
   },
   {
     "_component": "totaApp",
@@ -3218,6 +3239,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -3296,7 +3320,8 @@
           5
         ]
       }
-    ]
+    ],
+    "conceptPattern": "[aeiouáéíóúàâêôãõ]N"
   },
   {
     "_component": "totaApp",
@@ -3333,6 +3358,9 @@
       },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -3390,7 +3418,8 @@
           5
         ]
       }
-    ]
+    ],
+    "conceptPattern": "[aeiouáéíóúàâêôãõ]L"
   },
   {
     "_component": "totaApp",
@@ -3497,7 +3526,8 @@
           1
         ]
       }
-    ]
+    ],
+    "conceptPattern": "[bcdfghjklmnpqrstvwxyz][aeiouáéíóúàâêôãõ]+R"
   },
   {
     "_component": "totaApp",
@@ -3596,7 +3626,8 @@
         "word": "PERNA",
         "conceptRange": "0,2"
       }
-    ]
+    ],
+    "conceptPattern": "[bcdfghjklmnpqrstvwxyz][aeiouáéíóúàâêôãõ]R"
   },
   {
     "_component": "totaApp",
@@ -3729,7 +3760,8 @@
           4
         ]
       }
-    ]
+    ],
+    "conceptPattern": "[bcdfghjklmnpqrstvwxyz][aeiouáéíóúàâêôãõ]N"
   },
   {
     "_component": "totaApp",
@@ -3894,7 +3926,8 @@
           1
         ]
       }
-    ]
+    ],
+    "conceptPattern": "[bcdfghjklmnpqrstvwxyz][aeiouáéíóúàâêôãõ]L"
   },
   {
     "_component": "totaApp",
@@ -4071,7 +4104,8 @@
           4
         ]
       }
-    ]
+    ],
+    "conceptPattern": "[bcdfghjklmnpqrstvwxyz][aeiouáéíóúàâêôãõ]L"
   },
   {
     "_component": "totaApp",
@@ -4195,7 +4229,8 @@
           4
         ]
       }
-    ]
+    ],
+    "conceptPattern": "[bcdfghjklmnpqrstvwxyz][aeiouáéíóúàâêôãõ]M"
   },
   {
     "_component": "totaApp",
@@ -4224,14 +4259,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "orthographic": {
-        "weight": -1
-      },
       "omission": {
         "weight": 1
       },
       "memory": {
         "weight": 1
+      },
+      "orthographic": {
+        "weight": -1
       },
       "phonic": {
         "weight": -1
@@ -4301,7 +4336,8 @@
         "word": "CAMISA",
         "conceptRange": "4,5"
       }
-    ]
+    ],
+    "conceptPattern": "S[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -4330,14 +4366,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "orthographic": {
-        "weight": -1
-      },
       "omission": {
         "weight": 1
       },
       "memory": {
         "weight": 1
+      },
+      "orthographic": {
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -4415,7 +4451,8 @@
           4
         ]
       }
-    ]
+    ],
+    "conceptPattern": "SS[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -4523,7 +4560,8 @@
         "word": "XÍCARA",
         "conceptRange": "4,5"
       }
-    ]
+    ],
+    "conceptPattern": "R[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -4627,7 +4665,8 @@
           4
         ]
       }
-    ]
+    ],
+    "conceptPattern": "RR[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -4752,7 +4791,8 @@
         "word": "RAINHA",
         "conceptRange": "3,5"
       }
-    ]
+    ],
+    "conceptPattern": "NH[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -4856,7 +4896,8 @@
           6
         ]
       }
-    ]
+    ],
+    "conceptPattern": "H"
   },
   {
     "_component": "totaApp",
@@ -4885,16 +4926,7 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
-      "graphic": {
-        "weight": 1
-      },
       "omission": {
-        "weight": 1
-      },
-      "intrusion": {
         "weight": 1
       },
       "memory": {
@@ -4902,9 +4934,6 @@
       },
       "orthographic": {
         "weight": -1
-      },
-      "speech": {
-        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -4979,7 +5008,8 @@
         "word": "MÁQUINA",
         "conceptRange": "2,4"
       }
-    ]
+    ],
+    "conceptPattern": "QU[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -5089,7 +5119,8 @@
           3
         ]
       }
-    ]
+    ],
+    "conceptPattern": "LH[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -5195,7 +5226,8 @@
           7
         ]
       }
-    ]
+    ],
+    "conceptPattern": "CH[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -5291,7 +5323,8 @@
         "word": "DUPLA",
         "conceptRange": "2,4"
       }
-    ]
+    ],
+    "conceptPattern": "[bcdfghjklmnpqrstvwxyz]L[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -5389,7 +5422,8 @@
           6
         ]
       }
-    ]
+    ],
+    "conceptPattern": "Ç[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -5424,11 +5458,11 @@
       "memory": {
         "weight": 1
       },
-      "speech": {
-        "weight": 1
-      },
       "orthographic": {
         "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -5482,12 +5516,9 @@
         "closedVowels": [
           4
         ]
-      },
-      {
-        "word": "BRASIL",
-        "conceptRange": "0,2"
       }
-    ]
+    ],
+    "conceptPattern": "[bcdfghjklmnpqrstvwxyz]R[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -5593,7 +5624,8 @@
         "word": "ÁGUIA",
         "conceptRange": "1,3"
       }
-    ]
+    ],
+    "conceptPattern": "GU[aeiouáéíóúàâêôãõ]"
   },
   {
     "_component": "totaApp",
@@ -5711,7 +5743,8 @@
           3
         ]
       }
-    ]
+    ],
+    "conceptPattern": "X"
   },
   {
     "_component": "totaApp",
@@ -5825,7 +5858,8 @@
           9
         ]
       }
-    ]
+    ],
+    "conceptPattern": "SC"
   },
   {
     "_component": "totaApp",
@@ -5854,11 +5888,26 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "orthographic": {
-        "weight": 1
-      },
       "phonic": {
         "weight": -1
+      },
+      "graphic": {
+        "weight": 1
+      },
+      "omission": {
+        "weight": 1
+      },
+      "intrusion": {
+        "weight": 1
+      },
+      "memory": {
+        "weight": 1
+      },
+      "orthographic": {
+        "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -5947,7 +5996,8 @@
           0
         ]
       }
-    ]
+    ],
+    "conceptPattern": "X"
   },
   {
     "_component": "totaApp",
@@ -5976,11 +6026,26 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "orthographic": {
-        "weight": 1
-      },
       "phonic": {
         "weight": -1
+      },
+      "graphic": {
+        "weight": 1
+      },
+      "omission": {
+        "weight": 1
+      },
+      "intrusion": {
+        "weight": 1
+      },
+      "memory": {
+        "weight": 1
+      },
+      "orthographic": {
+        "weight": -1
+      },
+      "speech": {
+        "weight": 1
       }
     },
     "_wordLimit": "5",
@@ -6065,7 +6130,8 @@
           0
         ]
       }
-    ]
+    ],
+    "conceptPattern": "X"
   },
   {
     "_component": "totaApp",
@@ -6144,17 +6210,15 @@
         "conceptRange": "0,0"
       },
       {
-        "word": "SKATE",
-        "conceptRange": "1,1",
-        "closedVowels": [
-          4
-        ]
-      },
-      {
         "word": "POKE",
         "conceptRange": "2,2"
+      },
+      {
+        "word": "TEMAKI",
+        "conceptRange": "4,4"
       }
-    ]
+    ],
+    "conceptPattern": "K"
   },
   {
     "_component": "totaApp",
@@ -6183,11 +6247,11 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "orthographic": {
-        "weight": 1
-      },
       "omission": {
         "weight": 1
+      },
+      "orthographic": {
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -6238,7 +6302,8 @@
           8
         ]
       }
-    ]
+    ],
+    "conceptPattern": "XC"
   },
   {
     "_component": "totaApp",
@@ -6293,10 +6358,6 @@
         ]
       },
       {
-        "word": "PLAY",
-        "conceptRange": "3,3"
-      },
-      {
         "word": "MOTOBOY",
         "conceptRange": "6,6"
       },
@@ -6307,22 +6368,9 @@
           1,
           5
         ]
-      },
-      {
-        "word": "YOUTUBE",
-        "conceptRange": "0,0",
-        "closedVowels": [
-          6
-        ]
-      },
-      {
-        "word": "REPLAY",
-        "conceptRange": "5,5",
-        "closedVowels": [
-          1
-        ]
       }
-    ]
+    ],
+    "conceptPattern": "Y"
   },
   {
     "_component": "totaApp",
@@ -6367,10 +6415,6 @@
         "conceptRange": "2,2"
       },
       {
-        "word": "WIFI",
-        "conceptRange": "0,0"
-      },
-      {
         "word": "WEBCAM",
         "conceptRange": "0,0",
         "closedVowels": [
@@ -6378,13 +6422,11 @@
         ]
       },
       {
-        "word": "SHOW",
-        "conceptRange": "3,3",
-        "closedVowels": [
-          2
-        ]
+        "word": "WASABI",
+        "conceptRange": "0,0"
       }
-    ]
+    ],
+    "conceptPattern": "W"
   },
   {
     "_component": "totaApp",
@@ -6498,7 +6540,8 @@
           9
         ]
       }
-    ]
+    ],
+    "conceptPattern": "SC"
   },
   {
     "_component": "totaApp",
@@ -6527,26 +6570,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -6839,6 +6870,10 @@
         ]
       },
       {
+        "word": "FADA",
+        "conceptRange": "1,1"
+      },
+      {
         "word": "JATO",
         "conceptRange": "1,1",
         "closedVowels": [
@@ -6846,7 +6881,7 @@
         ]
       },
       {
-        "word": "ROLA",
+        "word": "BOLA",
         "conceptRange": "3,3"
       },
       {
@@ -6857,11 +6892,7 @@
         ]
       },
       {
-        "word": "FADA",
-        "conceptRange": "1,1"
-      },
-      {
-        "word": "BOLA",
+        "word": "ROLA",
         "conceptRange": "3,3"
       },
       {
@@ -7052,13 +7083,6 @@
         "conceptRange": "1,1"
       },
       {
-        "word": "BEBIDA",
-        "conceptRange": "5,5",
-        "closedVowels": [
-          1
-        ]
-      },
-      {
         "word": "CABELO",
         "conceptRange": "1,1",
         "closedVowels": [
@@ -7083,6 +7107,10 @@
         "closedVowels": [
           0
         ]
+      },
+      {
+        "word": "PANELA",
+        "conceptRange": "1,1"
       },
       {
         "word": "VACINA",
@@ -7721,10 +7749,6 @@
         ]
       },
       {
-        "word": "BRASIL",
-        "conceptRange": "2,2"
-      },
-      {
         "word": "GUERRA",
         "conceptRange": "5,5"
       },
@@ -7874,11 +7898,8 @@
         "conceptRange": "1,1"
       },
       {
-        "word": "SKATE",
-        "conceptRange": "2,2",
-        "closedVowels": [
-          4
-        ]
+        "word": "TEMAKI",
+        "conceptRange": "3,3"
       },
       {
         "word": "EXCITAÇÃO",
@@ -7896,24 +7917,18 @@
         ]
       },
       {
-        "word": "PLAY",
-        "conceptRange": "2,2"
-      },
-      {
-        "word": "REPLAY",
-        "conceptRange": "4,4",
-        "closedVowels": [
-          1
-        ]
-      },
-      {
         "word": "WEBCAM",
         "conceptRange": "4,4",
         "closedVowels": [
           1
         ]
+      },
+      {
+        "word": "WASABI",
+        "conceptRange": "1,1"
       }
-    ]
+    ],
+    "conceptPattern": "A"
   },
   {
     "_component": "totaApp",
@@ -7942,26 +7957,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -8066,13 +8069,6 @@
       {
         "word": "BATATA",
         "conceptRange": "0,0"
-      },
-      {
-        "word": "BEBIDA",
-        "conceptRange": "0,0",
-        "closedVowels": [
-          1
-        ]
       },
       {
         "word": "CABELO",
@@ -8242,10 +8238,6 @@
         ]
       },
       {
-        "word": "BRASIL",
-        "conceptRange": "0,0"
-      },
-      {
         "word": "BOXE",
         "conceptRange": "0,0",
         "closedVowels": [
@@ -8264,20 +8256,18 @@
         "conceptRange": "4,4"
       },
       {
-        "word": "YOUTUBE",
-        "conceptRange": "5,5",
-        "closedVowels": [
-          6
-        ]
-      },
-      {
         "word": "WEBCAM",
         "conceptRange": "2,2",
         "closedVowels": [
           1
         ]
+      },
+      {
+        "word": "WASABI",
+        "conceptRange": "4,4"
       }
-    ]
+    ],
+    "conceptPattern": "B"
   },
   {
     "_component": "totaApp",
@@ -8306,26 +8296,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -9038,7 +9016,8 @@
           1
         ]
       }
-    ]
+    ],
+    "conceptPattern": "C"
   },
   {
     "_component": "totaApp",
@@ -9067,26 +9046,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -9184,7 +9151,8 @@
           8
         ]
       }
-    ]
+    ],
+    "conceptPattern": "Ç"
   },
   {
     "_component": "totaApp",
@@ -9213,26 +9181,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -9348,13 +9304,6 @@
       {
         "word": "SAÍDA",
         "conceptRange": "3,3"
-      },
-      {
-        "word": "BEBIDA",
-        "conceptRange": "4,4",
-        "closedVowels": [
-          1
-        ]
       },
       {
         "word": "COMIDA",
@@ -9588,7 +9537,8 @@
           5
         ]
       }
-    ]
+    ],
+    "conceptPattern": "D"
   },
   {
     "_component": "totaApp",
@@ -9617,26 +9567,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -9935,14 +9873,6 @@
         "conceptRange": "0,0"
       },
       {
-        "word": "ERGO",
-        "conceptRange": "0,0",
-        "closedVowels": [
-          0,
-          3
-        ]
-      },
-      {
         "word": "SAÚDE",
         "conceptRange": "4,4",
         "closedVowels": [
@@ -9952,13 +9882,6 @@
       {
         "word": "POETA",
         "conceptRange": "2,2",
-        "closedVowels": [
-          1
-        ]
-      },
-      {
-        "word": "BEBIDA",
-        "conceptRange": "1,1",
         "closedVowels": [
           1
         ]
@@ -9977,6 +9900,10 @@
         "closedVowels": [
           0
         ]
+      },
+      {
+        "word": "PANELA",
+        "conceptRange": "3,3"
       },
       {
         "word": "CEDO",
@@ -10768,15 +10695,12 @@
         "conceptRange": "1,1"
       },
       {
-        "word": "SKATE",
-        "conceptRange": "4,4",
-        "closedVowels": [
-          4
-        ]
-      },
-      {
         "word": "POKE",
         "conceptRange": "3,3"
+      },
+      {
+        "word": "TEMAKI",
+        "conceptRange": "1,1"
       },
       {
         "word": "EXCESSO",
@@ -10821,27 +10745,14 @@
         ]
       },
       {
-        "word": "YOUTUBE",
-        "conceptRange": "6,6",
-        "closedVowels": [
-          6
-        ]
-      },
-      {
-        "word": "REPLAY",
-        "conceptRange": "1,1",
-        "closedVowels": [
-          1
-        ]
-      },
-      {
         "word": "WEBCAM",
         "conceptRange": "1,1",
         "closedVowels": [
           1
         ]
       }
-    ]
+    ],
+    "conceptPattern": "E"
   },
   {
     "_component": "totaApp",
@@ -10870,26 +10781,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -11151,12 +11050,9 @@
           4,
           7
         ]
-      },
-      {
-        "word": "WIFI",
-        "conceptRange": "2,2"
       }
-    ]
+    ],
+    "conceptPattern": "F"
   },
   {
     "_component": "totaApp",
@@ -11185,26 +11081,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -11277,14 +11161,6 @@
           1,
           4,
           6
-        ]
-      },
-      {
-        "word": "ERGO",
-        "conceptRange": "2,2",
-        "closedVowels": [
-          0,
-          3
         ]
       },
       {
@@ -11514,7 +11390,8 @@
           1
         ]
       }
-    ]
+    ],
+    "conceptPattern": "G"
   },
   {
     "_component": "totaApp",
@@ -11543,26 +11420,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -11826,15 +11691,9 @@
       {
         "word": "KETCHUP",
         "conceptRange": "4,4"
-      },
-      {
-        "word": "SHOW",
-        "conceptRange": "1,1",
-        "closedVowels": [
-          2
-        ]
       }
-    ]
+    ],
+    "conceptPattern": "H"
   },
   {
     "_component": "totaApp",
@@ -11863,26 +11722,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -12097,13 +11944,6 @@
       {
         "word": "CUTIA",
         "conceptRange": "3,3"
-      },
-      {
-        "word": "BEBIDA",
-        "conceptRange": "3,3",
-        "closedVowels": [
-          1
-        ]
       },
       {
         "word": "COMIDA",
@@ -12498,10 +12338,6 @@
         ]
       },
       {
-        "word": "BRASIL",
-        "conceptRange": "4,4"
-      },
-      {
         "word": "GUITARRA",
         "conceptRange": "2,2"
       },
@@ -12680,6 +12516,10 @@
         "conceptRange": "1,1"
       },
       {
+        "word": "TEMAKI",
+        "conceptRange": "5,5"
+      },
+      {
         "word": "EXCITAÇÃO",
         "conceptRange": "3,3",
         "closedVowels": [
@@ -12696,10 +12536,11 @@
         ]
       },
       {
-        "word": "WIFI",
-        "conceptRange": "1,1"
+        "word": "WASABI",
+        "conceptRange": "5,5"
       }
-    ]
+    ],
+    "conceptPattern": "I"
   },
   {
     "_component": "totaApp",
@@ -12728,26 +12569,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -12826,7 +12655,8 @@
           1
         ]
       }
-    ]
+    ],
+    "conceptPattern": "J"
   },
   {
     "_component": "totaApp",
@@ -12855,26 +12685,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -12916,17 +12734,15 @@
         "conceptRange": "0,0"
       },
       {
-        "word": "SKATE",
-        "conceptRange": "1,1",
-        "closedVowels": [
-          4
-        ]
-      },
-      {
         "word": "POKE",
         "conceptRange": "2,2"
+      },
+      {
+        "word": "TEMAKI",
+        "conceptRange": "4,4"
       }
-    ]
+    ],
+    "conceptPattern": "K"
   },
   {
     "_component": "totaApp",
@@ -12955,26 +12771,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -13094,11 +12898,7 @@
         ]
       },
       {
-        "word": "LU",
-        "conceptRange": "0,0"
-      },
-      {
-        "word": "ROLA",
+        "word": "BOLA",
         "conceptRange": "2,2"
       },
       {
@@ -13109,7 +12909,7 @@
         ]
       },
       {
-        "word": "BOLA",
+        "word": "ROLA",
         "conceptRange": "2,2"
       },
       {
@@ -13174,6 +12974,10 @@
         "closedVowels": [
           0
         ]
+      },
+      {
+        "word": "PANELA",
+        "conceptRange": "4,4"
       },
       {
         "word": "TIGELA",
@@ -13563,10 +13367,6 @@
         ]
       },
       {
-        "word": "BRASIL",
-        "conceptRange": "5,5"
-      },
-      {
         "word": "ALGUÉM",
         "conceptRange": "1,1",
         "closedVowels": []
@@ -13649,25 +13449,15 @@
         "conceptRange": "0,0"
       },
       {
-        "word": "PLAY",
-        "conceptRange": "1,1"
-      },
-      {
         "word": "DELIVERY",
         "conceptRange": "2,2",
         "closedVowels": [
           1,
           5
         ]
-      },
-      {
-        "word": "REPLAY",
-        "conceptRange": "3,3",
-        "closedVowels": [
-          1
-        ]
       }
-    ]
+    ],
+    "conceptPattern": "L"
   },
   {
     "_component": "totaApp",
@@ -13696,26 +13486,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -14226,6 +14004,10 @@
         ]
       },
       {
+        "word": "TEMAKI",
+        "conceptRange": "2,2"
+      },
+      {
         "word": "MOTOBOY",
         "conceptRange": "0,0"
       },
@@ -14236,7 +14018,8 @@
           1
         ]
       }
-    ]
+    ],
+    "conceptPattern": "M"
   },
   {
     "_component": "totaApp",
@@ -14265,26 +14048,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -14390,6 +14161,10 @@
       {
         "word": "CAFUNÉ",
         "conceptRange": "4,4"
+      },
+      {
+        "word": "PANELA",
+        "conceptRange": "2,2"
       },
       {
         "word": "VACINA",
@@ -14780,7 +14555,8 @@
           8
         ]
       }
-    ]
+    ],
+    "conceptPattern": "N"
   },
   {
     "_component": "totaApp",
@@ -14809,26 +14585,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -15177,7 +14941,7 @@
         ]
       },
       {
-        "word": "ROLA",
+        "word": "BOLA",
         "conceptRange": "1,1"
       },
       {
@@ -15188,7 +14952,7 @@
         ]
       },
       {
-        "word": "BOLA",
+        "word": "ROLA",
         "conceptRange": "1,1"
       },
       {
@@ -15314,14 +15078,6 @@
       {
         "word": "ORCA",
         "conceptRange": "0,0"
-      },
-      {
-        "word": "ERGO",
-        "conceptRange": "3,3",
-        "closedVowels": [
-          0,
-          3
-        ]
       },
       {
         "word": "LAGOA",
@@ -16403,22 +16159,9 @@
       {
         "word": "MOTOBOY",
         "conceptRange": "1,1"
-      },
-      {
-        "word": "YOUTUBE",
-        "conceptRange": "1,1",
-        "closedVowels": [
-          6
-        ]
-      },
-      {
-        "word": "SHOW",
-        "conceptRange": "2,2",
-        "closedVowels": [
-          2
-        ]
       }
-    ]
+    ],
+    "conceptPattern": "O"
   },
   {
     "_component": "totaApp",
@@ -16447,26 +16190,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -16582,6 +16313,10 @@
         "closedVowels": [
           1
         ]
+      },
+      {
+        "word": "PANELA",
+        "conceptRange": "0,0"
       },
       {
         "word": "PEDÁGIO",
@@ -16833,19 +16568,9 @@
       {
         "word": "POKE",
         "conceptRange": "0,0"
-      },
-      {
-        "word": "PLAY",
-        "conceptRange": "0,0"
-      },
-      {
-        "word": "REPLAY",
-        "conceptRange": "2,2",
-        "closedVowels": [
-          1
-        ]
       }
-    ]
+    ],
+    "conceptPattern": "P"
   },
   {
     "_component": "totaApp",
@@ -16874,26 +16599,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -16975,7 +16688,8 @@
         "word": "MÁQUINA",
         "conceptRange": "2,2"
       }
-    ]
+    ],
+    "conceptPattern": "Q"
   },
   {
     "_component": "totaApp",
@@ -17004,26 +16718,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -17160,15 +16862,15 @@
         "conceptRange": "0,0"
       },
       {
-        "word": "ROLA",
-        "conceptRange": "0,0"
-      },
-      {
         "word": "RALO",
         "conceptRange": "0,0",
         "closedVowels": [
           3
         ]
+      },
+      {
+        "word": "ROLA",
+        "conceptRange": "0,0"
       },
       {
         "word": "REMO",
@@ -17256,14 +16958,6 @@
       {
         "word": "ORCA",
         "conceptRange": "1,1"
-      },
-      {
-        "word": "ERGO",
-        "conceptRange": "1,1",
-        "closedVowels": [
-          0,
-          3
-        ]
       },
       {
         "word": "RELÓGIO",
@@ -17616,10 +17310,6 @@
         ]
       },
       {
-        "word": "BRASIL",
-        "conceptRange": "1,1"
-      },
-      {
         "word": "GUERRA",
         "conceptRange": "3,3"
       },
@@ -17790,15 +17480,9 @@
           1,
           5
         ]
-      },
-      {
-        "word": "REPLAY",
-        "conceptRange": "0,0",
-        "closedVowels": [
-          1
-        ]
       }
-    ]
+    ],
+    "conceptPattern": "R"
   },
   {
     "_component": "totaApp",
@@ -17827,26 +17511,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -18301,10 +17973,6 @@
         "conceptRange": "2,2"
       },
       {
-        "word": "BRASIL",
-        "conceptRange": "3,3"
-      },
-      {
         "word": "SANGUE",
         "conceptRange": "0,0",
         "closedVowels": [
@@ -18420,13 +18088,6 @@
         ]
       },
       {
-        "word": "SKATE",
-        "conceptRange": "0,0",
-        "closedVowels": [
-          4
-        ]
-      },
-      {
         "word": "EXCESSO",
         "conceptRange": "4,4",
         "closedVowels": [
@@ -18435,13 +18096,11 @@
         ]
       },
       {
-        "word": "SHOW",
-        "conceptRange": "0,0",
-        "closedVowels": [
-          2
-        ]
+        "word": "WASABI",
+        "conceptRange": "2,2"
       }
-    ]
+    ],
+    "conceptPattern": "S"
   },
   {
     "_component": "totaApp",
@@ -18470,26 +18129,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -19080,11 +18727,8 @@
         "conceptRange": "3,3"
       },
       {
-        "word": "SKATE",
-        "conceptRange": "3,3",
-        "closedVowels": [
-          4
-        ]
+        "word": "TEMAKI",
+        "conceptRange": "0,0"
       },
       {
         "word": "EXCETO",
@@ -19115,15 +18759,9 @@
       {
         "word": "MOTOBOY",
         "conceptRange": "2,2"
-      },
-      {
-        "word": "YOUTUBE",
-        "conceptRange": "3,3",
-        "closedVowels": [
-          6
-        ]
       }
-    ]
+    ],
+    "conceptPattern": "T"
   },
   {
     "_component": "totaApp",
@@ -19152,26 +18790,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -19271,10 +18897,6 @@
           4,
           6
         ]
-      },
-      {
-        "word": "LU",
-        "conceptRange": "1,1"
       },
       {
         "word": "TU",
@@ -19542,15 +19164,9 @@
       {
         "word": "KETCHUP",
         "conceptRange": "5,5"
-      },
-      {
-        "word": "YOUTUBE",
-        "conceptRange": "2,2",
-        "closedVowels": [
-          6
-        ]
       }
-    ]
+    ],
+    "conceptPattern": "U"
   },
   {
     "_component": "totaApp",
@@ -19579,26 +19195,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -19727,7 +19331,8 @@
           5
         ]
       }
-    ]
+    ],
+    "conceptPattern": "V"
   },
   {
     "_component": "totaApp",
@@ -19756,26 +19361,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -19787,10 +19380,6 @@
         "conceptRange": "2,2"
       },
       {
-        "word": "WIFI",
-        "conceptRange": "0,0"
-      },
-      {
         "word": "WEBCAM",
         "conceptRange": "0,0",
         "closedVowels": [
@@ -19798,13 +19387,11 @@
         ]
       },
       {
-        "word": "SHOW",
-        "conceptRange": "3,3",
-        "closedVowels": [
-          2
-        ]
+        "word": "WASABI",
+        "conceptRange": "0,0"
       }
-    ]
+    ],
+    "conceptPattern": "W"
   },
   {
     "_component": "totaApp",
@@ -19833,26 +19420,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -20170,7 +19745,8 @@
           8
         ]
       }
-    ]
+    ],
+    "conceptPattern": "X"
   },
   {
     "_component": "totaApp",
@@ -20199,26 +19775,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -20240,10 +19804,6 @@
         ]
       },
       {
-        "word": "PLAY",
-        "conceptRange": "3,3"
-      },
-      {
         "word": "MOTOBOY",
         "conceptRange": "6,6"
       },
@@ -20254,22 +19814,9 @@
           1,
           5
         ]
-      },
-      {
-        "word": "YOUTUBE",
-        "conceptRange": "0,0",
-        "closedVowels": [
-          6
-        ]
-      },
-      {
-        "word": "REPLAY",
-        "conceptRange": "5,5",
-        "closedVowels": [
-          1
-        ]
       }
-    ]
+    ],
+    "conceptPattern": "Y"
   },
   {
     "_component": "totaApp",
@@ -20298,26 +19845,14 @@
       "_isCompletionIndicatorEnabled": false
     },
     "_concepts": {
-      "phonic": {
-        "weight": 1
-      },
       "graphic": {
         "weight": 1
       },
-      "omission": {
-        "weight": 1
-      },
-      "intrusion": {
-        "weight": 1
-      },
-      "memory": {
+      "phonic": {
         "weight": 1
       },
       "orthographic": {
-        "weight": 1
-      },
-      "speech": {
-        "weight": 1
+        "weight": -1
       }
     },
     "_wordLimit": "5",
@@ -20343,6 +19878,7 @@
           3
         ]
       }
-    ]
+    ],
+    "conceptPattern": "Z"
   }
 ]
